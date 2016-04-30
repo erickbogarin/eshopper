@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - eshopper@localhost" uuid="0e9bcd51-16e6-44b8-8ead-173aba199799">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>eshopper.*</schema-pattern>
+      <default-schemas>eshopper.*</default-schemas>
+    </data-source>
+  </component>
+</project>

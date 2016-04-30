@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.webjars:jslint:20140708-394bf29">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/jslint/20140708-394bf29/jslint-20140708-394bf29.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/jslint/20140708-394bf29/jslint-20140708-394bf29-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/webjars/jslint/20140708-394bf29/jslint-20140708-394bf29-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

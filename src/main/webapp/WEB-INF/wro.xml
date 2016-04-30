@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<groups xmlns="http://www.isdc.ro/wro">
+
+	<group name="main">
+		<css>/resources/css/main.css</css>
+		<js>/resources/js/lib/main.js</js>
+		<js>/resources/js/lib/header.js</js>
+	</group>
+	
+	<group name="responsive">
+		<css>/resources/css/responsive.css</css>
+	</group>
+	
+	<group name="vendor">
+		<js>/resources/js/vendor/jquery.js</js>
+		<js>/resources/js/vendor/bootstrap.min.js</js>
+		<css minimize="false">/resources/css/bootstrap.min.css</css>
+		<css minimize="false">/resources/css/font-awesome.min.css</css>
+	</group>
+	
+	<group name="extraScripts">
+		<js>/resources/js/vendor/jquery.lazyload.js</js>
+		<js>/resources/js/lib/home/lazyload.js</js>
+		<js>/resources/js/lib/home/product-names.js</js>
+	</group>	
+	
+	<group name="itemsScripts">
+		<js>/resources/js/lib/shoppingCart/server-context.js</js>
+		<js>/resources/js/lib/shoppingCart/ajax.js</js>
+		<js>/resources/js/lib/shoppingCart/cart.js</js>
+	</group>
+</groups>
