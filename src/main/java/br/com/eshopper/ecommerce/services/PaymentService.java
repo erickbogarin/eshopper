@@ -17,7 +17,7 @@ import br.com.eshopper.ecommerce.models.PurchaseStatus;
 import br.com.eshopper.ecommerce.models.Sale;
 import br.com.eshopper.ecommerce.models.ShoppingCart;
 import br.com.eshopper.ecommerce.models.ShoppingItem;
-import br.com.eshopper.ecommerce.models.User;
+import br.com.eshopper.ecommerce.models.SystemUser;
 
 @Service
 @Transactional
@@ -74,7 +74,7 @@ public class PaymentService {
 				shoppingCart.getTotal(item), item.getProduct());
 	}
 
-	private User checkUser() {
+	private SystemUser checkUser() {
 
 		/*if(SecurityContextHolder.getContext().getAuthentication() != null)
 			return (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();*/

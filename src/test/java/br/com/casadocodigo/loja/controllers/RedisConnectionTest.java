@@ -15,7 +15,7 @@ import br.com.eshopper.ecommerce.conf.JPAConfiguration;
 import br.com.eshopper.ecommerce.conf.SecurityConfiguration;
 import br.com.eshopper.ecommerce.daos.UserDAO;
 import br.com.eshopper.ecommerce.models.SummaryData;
-import br.com.eshopper.ecommerce.models.User;
+import br.com.eshopper.ecommerce.models.SystemUser;
 import br.com.eshopper.ecommerce.services.UserService;
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -44,7 +44,7 @@ public class RedisConnectionTest {
 	private UserDAO userDao;
 	
 	@Autowired
-	private User user;
+	private SystemUser user;
 	
 /*	@Test
 	public void testRedis() {

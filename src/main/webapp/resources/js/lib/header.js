@@ -34,7 +34,7 @@ function getCookie(cname) {
 }
 
 var locale = getCookie("org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE");
-if (locale == "") {
+if (locale == "pt") {
 	$('#firstLanguage').append('Português <span class="caret"></span>');
 	$('#secondLanguage').attr('href', '?locale=en_US');
 	$('#secondLanguage').append('English');

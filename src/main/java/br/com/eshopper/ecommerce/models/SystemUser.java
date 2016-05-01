@@ -21,7 +21,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @Entity
 @Component
 @JsonIgnoreProperties({"password", "person", "roles", "accountNonExpired", "accountNonLocked", "credentialsNonExpired", "authorities", "enabled", "username"})
-public class User implements UserDetails {
+public class SystemUser implements UserDetails {
 
 	private static final long serialVersionUID = 1L;
 	

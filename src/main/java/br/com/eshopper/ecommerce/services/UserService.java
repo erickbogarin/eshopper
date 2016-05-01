@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 import br.com.eshopper.ecommerce.daos.UserDAO;
 import br.com.eshopper.ecommerce.models.SummaryUser;
-import br.com.eshopper.ecommerce.models.User;
+import br.com.eshopper.ecommerce.models.SystemUser;
 
 @Service
 public class UserService {
@@ -22,7 +22,7 @@ public class UserService {
 	private SummaryUser summaryUser;
 	
 	@Transactional
-	public void save(User user) {
+	public void save(SystemUser user) {
 		userDao.save(user);
 		updateSummaryUser();
 	}

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import br.com.eshopper.ecommerce.models.User;
+import br.com.eshopper.ecommerce.models.SystemUser;
 import br.com.eshopper.ecommerce.services.UserService;
 
 @Controller
@@ -21,7 +21,7 @@ public class UserController {
 	private UserService userService;
 	
 	@RequestMapping(method = RequestMethod.POST)
-	public ModelAndView register(@Valid User user, BindingResult bindingResult, RedirectAttributes redirectAttributes) {
+	public ModelAndView register(@Valid SystemUser user, BindingResult bindingResult, RedirectAttributes redirectAttributes) {
 		if (bindingResult.hasErrors()) {
 			return new ModelAndView("/login");
 		}

@@ -52,7 +52,7 @@ public class Purchase implements Serializable {
 	private PurchaseStatus purchaseStatus;
 	
 	@ManyToOne
-	private User user;
+	private SystemUser user;
 	
 	@OneToMany(mappedBy = "purchase", cascade = CascadeType.PERSIST)
 	@JsonManagedReference
@@ -100,10 +100,10 @@ public class Purchase implements Serializable {
 		return sales;
 	}
 	
-	public User getUser() {
+	public SystemUser getUser() {
 		return user;
 	}
-	public void setUser(User user) {
+	public void setUser(SystemUser user) {
 		this.user = user;
 	}
 	@Override

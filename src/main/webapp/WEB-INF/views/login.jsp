@@ -68,7 +68,7 @@
 					
 					
 					<form:form action="${spring:mvcUrl('UC#register').build()}" method="post"
-							commandName="user">
+							commandName="systemUser">
 						<security:csrfInput />
 						
 						<form:errors path="name" cssClass="alert-danger"/>
