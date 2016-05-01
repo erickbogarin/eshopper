@@ -50,7 +50,7 @@ import br.com.eshopper.ecommerce.viewresolver.JsonViewResolver;
 @ComponentScan(basePackageClasses = { HomeController.class, ProductDAO.class, FileSaver.class, ShoppingCart.class,
 		PaymentService.class, CategoryEditor.class })
 @EnableCaching
-@ImportResource({ "classpath:wro-context.xml", "classpath:redis-context.xml" })
+@ImportResource({ "classpath:wro-context.xml" })
 @Configuration
 public class AppWebConfiguration extends WebMvcConfigurerAdapter {
 

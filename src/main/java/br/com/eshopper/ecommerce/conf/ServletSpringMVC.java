@@ -45,4 +45,5 @@ public class ServletSpringMVC extends AbstractAnnotationConfigDispatcherServletI
 	protected Filter[] getServletFilters() {
 		return new Filter[] { new OpenEntityManagerInViewFilter() };
 	}
+	
 }

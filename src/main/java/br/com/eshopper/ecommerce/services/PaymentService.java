@@ -26,8 +26,8 @@ public class PaymentService {
 	
 	@Autowired
 	private PurchaseDAO purchaseDAO;
-	@Autowired
-	private SummaryDataService summaryDataService;
+	/*@Autowired
+	private SummaryDataService summaryDataService;*/
 	@Autowired
 	private UserDAO userDao;
 	private Purchase purchase;
@@ -52,7 +52,7 @@ public class PaymentService {
 	public void save() {
 		
 		lookForSalesAndSaveEachOne();
-		summaryDataService.trace(purchase);
+		//summaryDataService.trace(purchase);
 		
 		purchaseDAO.save(purchase);
 	}

@@ -3,8 +3,6 @@ package br.com.casadocodigo.loja.controllers;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.authentication.AnonymousAuthenticationToken;
-import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
@@ -15,8 +13,6 @@ import br.com.casadocodigo.loja.conf.DataSourceConfigurationTest;
 import br.com.eshopper.ecommerce.conf.AppWebConfiguration;
 import br.com.eshopper.ecommerce.conf.JPAConfiguration;
 import br.com.eshopper.ecommerce.conf.SecurityConfiguration;
-import br.com.eshopper.ecommerce.daos.SummaryDataDAO;
-import br.com.eshopper.ecommerce.daos.SummaryUserDAO;
 import br.com.eshopper.ecommerce.daos.UserDAO;
 import br.com.eshopper.ecommerce.models.SummaryData;
 import br.com.eshopper.ecommerce.models.User;
@@ -28,12 +24,12 @@ import br.com.eshopper.ecommerce.services.UserService;
 		DataSourceConfigurationTest.class })
 @ActiveProfiles("test")
 public class RedisConnectionTest {
-
+/*
 	@Autowired
 	private SummaryDataDAO summaryDataDao;
 	
 	@Autowired
-	private SummaryUserDAO summaryUserDao;
+	private SummaryUserDAO summaryUserDao;*/
 	
 	@Autowired
 	private SummaryData summaryData;
