@@ -273,7 +273,7 @@
 			<artifactId>spring-security-test</artifactId>
 			<version>4.0.3.RELEASE</version>
 		</dependency>
-
+			
 		<dependency>
 			<groupId>com.googlecode.htmlcompressor</groupId>
 			<artifactId>htmlcompressor</artifactId>

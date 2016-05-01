@@ -112,7 +112,7 @@
 										<c:forEach items="${productFilter.categories()}"
 											var="category">
 											<li><a href="${s:mvcUrl("PLC#personAndCategoryList").arg(0, person.id).arg(1, category.id)
-                                                         .arg(2, person.personType.toString()).build()}">${category.categoryType}
+                                                         .arg(2, person.personType.toString()).build()}">${category.categoryType.toString()}
 											</a></li>
 										</c:forEach>
 									</ul></li>

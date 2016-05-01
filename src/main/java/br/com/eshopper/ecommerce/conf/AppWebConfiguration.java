@@ -146,5 +146,5 @@ public class AppWebConfiguration extends WebMvcConfigurerAdapter {
 	public LocaleResolver localeResolver() {
 		return new CookieLocaleResolver();
 	}
-
+	
 }
