@@ -24,9 +24,9 @@
         <link href="${wroPath}/vendor.css" rel="stylesheet">
         <link href="${classPath }/css/price-range.css" rel="stylesheet">
         <link href="${classPath }/css/animate.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100"/>
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700"/>
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Abel"/>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100"/>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700"/>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Abel"/>
 	    <link href="${wroPath}/main.css" rel="stylesheet">
 	    <link href="${classPath }/css/responsive.css" rel="stylesheet">
 	    <link rel="shortcut icon" href="${classPath}/images/favicon.ico" type="image/x-icon" />
