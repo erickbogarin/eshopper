@@ -9,7 +9,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 
 public class ServletSpringMVC extends AbstractAnnotationConfigDispatcherServletInitializer {
 
-	/*@Override
+/*	@Override
 	public void onStartup(ServletContext servletContext) throws ServletException {
 		super.onStartup(servletContext);
 		servletContext.addListener(RequestContextListener.class);
@@ -18,8 +18,8 @@ public class ServletSpringMVC extends AbstractAnnotationConfigDispatcherServletI
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
-		return new Class[] { SecurityConfiguration.class, AppWebConfiguration.class, JPAConfiguration.class, JPAProductionConfiguration.class, 
-				AmazonConfiguration.class };
+		return new Class[] { SecurityConfiguration.class, AppWebConfiguration.class, JPAConfiguration.class,
+				JPAProductionConfiguration.class };
 	}
 
 	@Override
@@ -42,5 +42,5 @@ public class ServletSpringMVC extends AbstractAnnotationConfigDispatcherServletI
 	protected Filter[] getServletFilters() {
 		return new Filter[] { new OpenEntityManagerInViewFilter() };
 	}
-	
+
 }
