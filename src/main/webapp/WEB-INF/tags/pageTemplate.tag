@@ -8,7 +8,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="pt-BR"> <!--<![endif]-->
-<compress:html removeComments="true" enabled="true" removeIntertagSpaces="true" removeMultiSpaces="true" compressJavaScript="true" compressCss="true">
+
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -68,6 +68,6 @@
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>-->
     </body>
-</compress:html>
+
 </html>
 
