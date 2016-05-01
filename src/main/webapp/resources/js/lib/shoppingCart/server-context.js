@@ -1,2 +1,2 @@
 //serverContext = 'http://localhost:8080/e-shopper/';
-serverContext = 'eshopper-online.herokuapp.com/';
+serverContext = 'http://eshopper-online.herokuapp.com/';
