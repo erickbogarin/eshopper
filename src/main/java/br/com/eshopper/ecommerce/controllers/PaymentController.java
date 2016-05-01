@@ -39,7 +39,7 @@ public class PaymentController {
 	public Callable<ModelAndView> checkout(RedirectAttributes model) {
 		return () -> {
 			BigDecimal total = shoppingCart.getTotal();
-			String uriToPay = "http://book-payment.herokuapp.com/payment";
+			String uriToPay = "https://book-payment.herokuapp.com/payment";
 			try {
 				String response = restTemplate.postForObject(uriToPay,
 						new PaymentData(total), String.class);
