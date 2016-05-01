@@ -15,7 +15,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a href="${spring:mvcUrl('PLC#categories').arg(0, category.id).arg(1, category.categoryType.toString().toLowerCase()).build()}">${category.categoryType}</a>
+                            <a href="${spring:mvcUrl('PLC#categories').arg(0, category.id).arg(1, category.categoryType.toString().toLowerCase()).build()}">${category.categoryType.toString()}</a>
                         </h4>
                     </div>
                 </div>
