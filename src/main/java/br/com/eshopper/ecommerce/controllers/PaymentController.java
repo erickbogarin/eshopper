@@ -15,6 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import br.com.eshopper.ecommerce.models.ShoppingCart;
+import br.com.eshopper.ecommerce.services.PaymentService;
 
 @Controller
 @RequestMapping("/payment")
@@ -22,10 +23,17 @@ import br.com.eshopper.ecommerce.models.ShoppingCart;
 public class PaymentController {
 
 	@Autowired
-	private RestTemplate restTemplate;
+	private PaymentService paymentService;
 	
 	@Autowired
+	private RestTemplate restTemplate;
+	
 	private ShoppingCart shoppingCart;
+	
+	@Autowired
+	public PaymentController(ShoppingCart shoppingCart) {
+		this.shoppingCart = shoppingCart;
+	}
 	
 	@RequestMapping(value = "checkout", method = RequestMethod.POST)
 	public Callable<ModelAndView> checkout(RedirectAttributes model) {
@@ -36,11 +44,11 @@ public class PaymentController {
 				String response = restTemplate.postForObject(uriToPay,
 						new PaymentData(total), String.class);
 
-			//	paymentService.save();
-			//	shoppingCart.clear();
+				paymentService.save();
+				shoppingCart.clear();
 				
 				model.addFlashAttribute("sucesso", response);
-				return new ModelAndView("redirect:/admin");
+				return new ModelAndView("redirect:/");
 			} catch (HttpClientErrorException e) {
 				e.printStackTrace();
 				model.addFlashAttribute("falha", "Valor maior que o permitido");
