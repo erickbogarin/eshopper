@@ -12,6 +12,7 @@ import javax.persistence.Lob;
 import javax.persistence.ManyToOne;
 import javax.validation.constraints.NotNull;
 
+import org.hibernate.annotations.Type;
 import org.hibernate.validator.constraints.NotBlank;
 
 @Entity 
@@ -27,6 +28,7 @@ public class Product implements Serializable{
 	private String name;
 	@Lob
 	@NotBlank
+	@Type(type = "org.hibernate.type.TextType")
 	private String description;
 	@Column(scale = 2)
 	@NotNull
