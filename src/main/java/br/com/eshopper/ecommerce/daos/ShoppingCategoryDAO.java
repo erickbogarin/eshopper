@@ -22,7 +22,7 @@ public class ShoppingCategoryDAO {
 				+ " from Sale s"
 				+ " join s.product"
 				+ " join s.purchase"
-				+ " GROUP BY,s.product.category.categoryType, s.product.person.personType, s.product.brand.brandType"
+				+ " GROUP BY s.product.category.categoryType, s.product.person.personType, s.product.brand.brandType"
 				+ " ORDER BY s.product.category.categoryType ASC, COUNT(s.id) DESC, s.purchase.purchaseDate ASC";
 
 		 return manager.createQuery(jpql, ShoppingCategory.class).getResultList();
