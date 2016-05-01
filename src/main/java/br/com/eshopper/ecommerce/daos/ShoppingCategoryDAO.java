@@ -19,7 +19,9 @@ public class ShoppingCategoryDAO {
 
 		String jpql = "select new br.com.eshopper.ecommerce.models.ShoppingCategory"
 				+ "(s.product.name, s.purchase.purchaseDate, COUNT(s.id), SUM(s.total), s.product.category.categoryType, s.product.person.personType, s.product.brand.brandType)"
-				+ " from Sale s left join s.product left join s.purchase"
+				+ " from Sale s"
+				+ " join s.product"
+				+ " join s.purchase"
 				+ " GROUP BY,s.product.category.categoryType, s.product.person.personType, s.product.brand.brandType"
 				+ " ORDER BY s.product.category.categoryType ASC, COUNT(s.id) DESC, s.purchase.purchaseDate ASC";
 
