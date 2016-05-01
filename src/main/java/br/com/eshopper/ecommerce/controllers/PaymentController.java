@@ -45,10 +45,10 @@ public class PaymentController {
 						new PaymentData(total), String.class);
 
 			//	paymentService.save();
-				shoppingCart.clear();
+			//	shoppingCart.clear();
 				
 				model.addFlashAttribute("sucesso", response);
-				return new ModelAndView("redirect:/");
+				return new ModelAndView("redirect:/admin");
 			} catch (HttpClientErrorException e) {
 				e.printStackTrace();
 				model.addFlashAttribute("falha", "Valor maior que o permitido");
