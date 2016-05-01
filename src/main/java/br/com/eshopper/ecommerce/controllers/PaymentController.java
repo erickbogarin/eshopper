@@ -15,16 +15,12 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import br.com.eshopper.ecommerce.models.ShoppingCart;
-import br.com.eshopper.ecommerce.services.PaymentService;
 
 @Controller
 @RequestMapping("/payment")
 @Scope(value = WebApplicationContext.SCOPE_REQUEST)
 public class PaymentController {
 
-	@Autowired
-	private PaymentService paymentService;
-	
 	@Autowired
 	private RestTemplate restTemplate;
 	
