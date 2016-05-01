@@ -28,12 +28,8 @@ public class PaymentController {
 	@Autowired
 	private RestTemplate restTemplate;
 	
-	private ShoppingCart shoppingCart;
-	
 	@Autowired
-	public PaymentController(ShoppingCart shoppingCart) {
-		this.shoppingCart = shoppingCart;
-	}
+	private ShoppingCart shoppingCart;
 	
 	@RequestMapping(value = "checkout", method = RequestMethod.POST)
 	public Callable<ModelAndView> checkout(RedirectAttributes model) {
