@@ -50,7 +50,7 @@
 					</div>
 					<div class="btn-group pull-right">
 						<div class="btn-group">
-							<a href="?locale=" id="firstLanguage" 
+							<a href="?locale=pt" id="firstLanguage" 
 								class="btn btn-default dropdown-toggle locale usa"
 								data-toggle="dropdown">
 							</a>

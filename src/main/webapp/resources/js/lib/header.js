@@ -40,7 +40,7 @@ if (locale == "") {
 	$('#secondLanguage').append('English');
 } else {
 	$('#firstLanguage').append('English <span class="caret"></span>');
-	$('#secondLanguage').attr('href', '?locale=');
+	$('#secondLanguage').attr('href', '?locale=pt');
 	$('#secondLanguage').append('Português');
 }
 removeParam('locale');
