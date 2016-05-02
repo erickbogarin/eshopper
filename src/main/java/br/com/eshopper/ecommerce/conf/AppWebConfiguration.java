@@ -28,6 +28,7 @@ import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.i18n.CookieLocaleResolver;
 import org.springframework.web.servlet.i18n.LocaleChangeInterceptor;
@@ -53,6 +54,11 @@ import br.com.eshopper.ecommerce.viewresolver.JsonViewResolver;
 @ImportResource({ "classpath:wro-context.xml" })
 @Configuration
 public class AppWebConfiguration extends WebMvcConfigurerAdapter {
+
+	/*
+	 * Time, in seconds, to have the browser cache static resources (one week).
+	 */
+	private static final int BROWSER_CACHE_CONTROL = 604800;
 
 	@Override
 	public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
@@ -142,9 +148,15 @@ public class AppWebConfiguration extends WebMvcConfigurerAdapter {
 		registry.addInterceptor(new LocaleChangeInterceptor());
 	}
 
+	@Override
+	public void addResourceHandlers(ResourceHandlerRegistry registry) {
+		registry.addResourceHandler("/resources/**").addResourceLocations("/resources/")
+				.setCachePeriod(BROWSER_CACHE_CONTROL);
+	}
+
 	@Bean
 	public LocaleResolver localeResolver() {
 		return new CookieLocaleResolver();
 	}
-	
+
 }
