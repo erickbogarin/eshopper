@@ -35,7 +35,7 @@
     	<script src="${classPath }/js/html5shiv.js"></script>
     	<script src="${classPath }/js/respond.min.js"></script>
     	<![endif]-->       
-        <script src="${classPath }/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script async src="${classPath }/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         
     </head>
     <body>

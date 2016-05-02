@@ -148,15 +148,17 @@ public class AppWebConfiguration extends WebMvcConfigurerAdapter {
 		registry.addInterceptor(new LocaleChangeInterceptor());
 	}
 
-	@Override
-	public void addResourceHandlers(ResourceHandlerRegistry registry) {
-		registry.addResourceHandler("/resources/**").addResourceLocations("/resources/")
-				.setCachePeriod(BROWSER_CACHE_CONTROL);
-	}
-
 	@Bean
 	public LocaleResolver localeResolver() {
 		return new CookieLocaleResolver();
 	}
-
+	
+	@Override
+	public void addResourceHandlers(ResourceHandlerRegistry registry) {
+		registry.addResourceHandler("/resources/**").addResourceLocations("/resources/")
+				.setCachePeriod(BROWSER_CACHE_CONTROL);
+		registry.addResourceHandler("/uploaded-images/**").addResourceLocations("/uploaded-images/")
+		.setCachePeriod(BROWSER_CACHE_CONTROL);
+	}
+	
 }
