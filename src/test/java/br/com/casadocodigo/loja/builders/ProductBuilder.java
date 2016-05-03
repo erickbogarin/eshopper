@@ -16,12 +16,12 @@ public class ProductBuilder {
 	}
 
 	public static ProductBuilder newProduct(BigDecimal value) {
-		Product book = create("Book 1", value);
+		Product book = create("T-shirt", value);
 		return new ProductBuilder(book);
 	}
 
 	public static ProductBuilder newProduct() {
-		Product book = create("Book 1", BigDecimal.TEN);
+		Product book = create("Hat", BigDecimal.TEN);
 		return new ProductBuilder(book);
 	}
 
@@ -37,7 +37,7 @@ public class ProductBuilder {
 		Product base = products.get(0);
 		
 		for (int i = 0; i < number; i++) {
-			products.add(create("Book " + i, base.getPrice()));
+			products.add(create("Pants" + i, base.getPrice()));
 		}
 		return this;
 	}

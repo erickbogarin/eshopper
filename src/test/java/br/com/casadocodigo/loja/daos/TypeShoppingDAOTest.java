@@ -9,7 +9,7 @@ import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import br.com.casadocodigo.loja.conf.DataSourceConfigurationTest;
+import br.com.casadocodigo.loja.conf.JPADataSourceConfigurationTest;
 import br.com.eshopper.ecommerce.conf.JPAConfiguration;
 import br.com.eshopper.ecommerce.daos.ShoppingBrandDAO;
 import br.com.eshopper.ecommerce.daos.ShoppingCategoryDAO;
@@ -17,7 +17,7 @@ import br.com.eshopper.ecommerce.daos.ShoppingPersonDAO;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes =
-{DataSourceConfigurationTest.class, ShoppingPersonDAO.class, ShoppingCategoryDAO.class, ShoppingBrandDAO.class, JPAConfiguration.class})
+{JPADataSourceConfigurationTest.class, ShoppingPersonDAO.class, ShoppingCategoryDAO.class, ShoppingBrandDAO.class, JPAConfiguration.class})
 @ActiveProfiles("dev")
 public class TypeShoppingDAOTest {
 	

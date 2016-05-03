@@ -7,17 +7,17 @@ import org.joda.time.LocalDate;
 import org.springframework.stereotype.Component;
 
 @Component
-public class SummaryData implements Serializable {
+public class SalesSummary implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
-	public static final String OBJECT_KEY = "SummaryData";
+	public static final String OBJECT_KEY = "SalesSummary";
 	
 	private String period;
 	private BigDecimal monthlyProfit;
 	private Integer monthPurchaseTotal;
 	
-	public SummaryData() {
+	public SalesSummary() {
 		this.period = LocalDate.now().getMonthOfYear() + "-" + LocalDate.now().getYear();
 	}
 	
@@ -50,18 +50,18 @@ public class SummaryData implements Serializable {
 		this.monthPurchaseTotal = 0;
 	}
 
-	@Override
-	public String toString() {
-		return "SummaryData [period=" + period + ", monthlyProfit=" + monthlyProfit + ", monthPurchaseTotal="
-				+ monthPurchaseTotal + "]";
-	}
-
 	public void setMonth(Integer month) {
 		this.period = month + "-" + LocalDate.now().getYear();
 	}
 	
 	public void setYear(Integer year) {
 		this.period = LocalDate.now().getMonthOfYear() + "-" + year;
+	}
+	
+	@Override
+	public String toString() {
+		return "SalesSummary [period=" + period + ", monthlyProfit=" + monthlyProfit + ", monthPurchaseTotal="
+				+ monthPurchaseTotal + "]";
 	}
 	
 }

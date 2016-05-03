@@ -13,13 +13,18 @@ public class SummaryUser implements Serializable{
 	
 	public static final String OBJECT_ID = "Users";
 	
+	private String id;
 	private Long totalGeneralUsers;
 	private Long totalMaleUsers;
 	private Long totalFemaleUsers;
 	private Long totalChildUsers;
 	
 	public String getId() {
-		return "users";
+		return OBJECT_ID.toLowerCase();
+	}
+	
+	public void setId(String id) {
+		this.id = id;
 	}
 	
 	public Long getTotalGeneralUsers() {
@@ -56,8 +61,9 @@ public class SummaryUser implements Serializable{
 
 	@Override
 	public String toString() {
-		return "SummaryUser [totalGeneralUsers=" + totalGeneralUsers + ", totalMaleUsers=" + totalMaleUsers
-				+ ", totalFemaleUsers=" + totalFemaleUsers + ", totalChildUsers=" + totalChildUsers + "]";
+		return "SummaryUser [id=" + id + ", totalGeneralUsers=" + totalGeneralUsers + ", totalMaleUsers="
+				+ totalMaleUsers + ", totalFemaleUsers=" + totalFemaleUsers + ", totalChildUsers=" + totalChildUsers
+				+ "]";
 	}
 	
 }

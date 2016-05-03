@@ -5,6 +5,7 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import br.com.eshopper.ecommerce.daos.SummaryUserDAO;
 import br.com.eshopper.ecommerce.daos.UserDAO;
 import br.com.eshopper.ecommerce.models.SummaryUser;
 import br.com.eshopper.ecommerce.models.SystemUser;
@@ -14,10 +15,10 @@ public class UserService {
 
 	@Autowired
 	private UserDAO userDao;
-	/*
+	
 	@Autowired
 	private SummaryUserDAO summaryUserDao;
-*/
+
 	@Autowired
 	private SummaryUser summaryUser;
 	
@@ -32,7 +33,7 @@ public class UserService {
 		summaryUser.setTotalMaleUsers(userDao.findAllMen());
 		summaryUser.setTotalFemaleUsers(userDao.findAllWomen());
 		summaryUser.setTotalChildUsers(userDao.findAllChild());
-//		summaryUserDao.save(summaryUser);
+		summaryUserDao.save(summaryUser);
 	}
 	
 }

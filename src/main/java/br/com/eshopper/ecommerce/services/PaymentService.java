@@ -26,10 +26,13 @@ public class PaymentService {
 	
 	@Autowired
 	private PurchaseDAO purchaseDAO;
-	/*@Autowired
-	private SummaryDataService summaryDataService;*/
+	
+	@Autowired
+	private SalesSummaryService salesSummaryService;
+	
 	@Autowired
 	private UserDAO userDao;
+	
 	private Purchase purchase;
 	private ShoppingCart shoppingCart;
 	
@@ -52,7 +55,7 @@ public class PaymentService {
 	public void save() {
 		
 		lookForSalesAndSaveEachOne();
-		//summaryDataService.trace(purchase);
+		salesSummaryService.trace(purchase);
 		
 		purchaseDAO.save(purchase);
 	}
@@ -75,10 +78,7 @@ public class PaymentService {
 	}
 
 	private SystemUser checkUser() {
-
-		/*if(SecurityContextHolder.getContext().getAuthentication() != null)
-			return (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();*/
-
+	
 		return userDao.find("visitante@email.com");
 	}
 

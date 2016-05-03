@@ -1,6 +1,6 @@
 package br.com.casadocodigo.loja.daos;
 
-import br.com.casadocodigo.loja.conf.DataSourceConfigurationTest;
+import br.com.casadocodigo.loja.conf.JPADataSourceConfigurationTest;
 import br.com.eshopper.ecommerce.conf.JPAConfiguration;
 import br.com.eshopper.ecommerce.daos.ProductDAO;
 
@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes =
-{DataSourceConfigurationTest.class, ProductDAO.class,JPAConfiguration.class})
+{JPADataSourceConfigurationTest.class, ProductDAO.class,JPAConfiguration.class})
 @ActiveProfiles("test")
 public class ProductDAOTest {
 	
