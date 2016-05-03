@@ -11,10 +11,10 @@ import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 import redis.clients.jedis.Protocol;
 
 @Configuration
-@Profile("prod")
 public class RedisProductionConfiguration {
 
 	@Bean
+	@Profile("prod")
 	public JedisConnectionFactory jedisConnFactory() {
 
 		try {

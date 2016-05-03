@@ -11,10 +11,10 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 import redis.clients.jedis.JedisPoolConfig;
 
 @Configuration
-@Profile(value = {"dev", "test"})
 public class RedisConfiguration {
 
 	@Bean
+	@Profile(value = {"dev", "test"})
 	public JedisConnectionFactory jedisConnectionFactory() {
 		JedisPoolConfig poolConfig = new JedisPoolConfig();
 		poolConfig.setMaxIdle(5);
