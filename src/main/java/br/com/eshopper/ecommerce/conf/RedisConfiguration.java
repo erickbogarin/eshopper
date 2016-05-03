@@ -40,9 +40,9 @@ public class RedisConfiguration {
 	}
 
 	@Bean
-	public RedisTemplate<String, ?> redisTemplate() {
+	public RedisTemplate<String, ?> redisTemplate(JedisConnectionFactory jedisConnectionFactory) {
 		RedisTemplate<String, ?> redisTemplate = new RedisTemplate<>();
-		redisTemplate.setConnectionFactory(jedisConnectionFactory());
+		redisTemplate.setConnectionFactory(jedisConnectionFactory);
 		redisTemplate.setKeySerializer(stringRedisSerializer());
 		redisTemplate.setHashKeySerializer(stringRedisSerializer());
 		redisTemplate.setValueSerializer(jacksonJsonRedisJsonSerializer());

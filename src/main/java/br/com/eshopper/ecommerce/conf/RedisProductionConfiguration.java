@@ -15,7 +15,7 @@ public class RedisProductionConfiguration {
 
 	@Bean
 	@Profile("prod")
-	public JedisConnectionFactory jedisConnFactory() {
+	public JedisConnectionFactory jedisConnectionFactory() {
 
 		try {
 			String redistogoUrl = System.getenv("REDIS_URL");
