@@ -19,7 +19,7 @@ public class JPAConfiguration {
 
 	@Bean
 	public LocalContainerEntityManagerFactoryBean entityManagerFactory(
-			DataSource dataSource) {
+			DataSource dataSource, Properties additionalProperties) {
 		LocalContainerEntityManagerFactoryBean factoryBean = 
 				new LocalContainerEntityManagerFactoryBean();
 		factoryBean.setPackagesToScan("br.com.eshopper.ecommerce.models");
@@ -27,12 +27,14 @@ public class JPAConfiguration {
 		
 		JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
 		factoryBean.setJpaVendorAdapter(vendorAdapter);
-		factoryBean.setJpaProperties(additionalProperties());
+		factoryBean.setJpaProperties(additionalProperties);
 		
 		return factoryBean;
 	}
 
-	Properties additionalProperties() {
+	@Bean
+	@Profile(value = {"dev", "test"})
+	public Properties additionalProperties() {
 		Properties props = new Properties();
 		props.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
 		props.setProperty("hibernate.show_sql", "true");
