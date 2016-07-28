@@ -15,6 +15,10 @@ import br.com.eshopper.ecommerce.formatters.ProductIdFormatter;
 import br.com.eshopper.ecommerce.infra.FileSaver;
 import br.com.eshopper.ecommerce.models.Product;
 
+/**
+ * @author Erick
+ *
+ */
 @Service
 public class ProductService {
 	
@@ -24,6 +28,14 @@ public class ProductService {
 	@Autowired
 	private FileSaver fileSaver;
 	
+	/**
+	 * @param product
+	 * @param smallPhoto
+	 * @param mediumPhoto
+	 * @param largePhoto
+	 * 
+	 * Save the product
+	 */
 	@Transactional
 	@CacheEvict(value = "products", allEntries = true)
 	public void save(Product product, MultipartFile smallPhoto, MultipartFile mediumPhoto, MultipartFile largePhoto) {
@@ -38,10 +50,20 @@ public class ProductService {
 		productDAO.save(product);
 	}
 	
+	/**
+	 * @param sizePhoto
+	 * @return photo URL
+	 * 
+	 * Upload photos in 'uploaded-images' folder
+	 * 
+	 */
 	private String webPath(MultipartFile sizePhoto) {
 		return fileSaver.write("uploaded-images", sizePhoto);
 	}
 	
+	/**
+	 * @return Product List
+	 */
 	@Cacheable(value = "products")
 	public List<Product> list() {
 		return productDAO.list();

@@ -160,5 +160,5 @@ public class AppWebConfiguration extends WebMvcConfigurerAdapter {
 		registry.addResourceHandler("/uploaded-images/**").addResourceLocations("/uploaded-images/")
 		.setCachePeriod(BROWSER_CACHE_CONTROL);
 	}
-	
+		
 }

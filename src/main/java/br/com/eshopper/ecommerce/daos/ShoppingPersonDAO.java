@@ -7,7 +7,7 @@ import javax.persistence.PersistenceContext;
 
 import org.springframework.stereotype.Repository;
 
-import br.com.eshopper.ecommerce.models.ShoppingPerson;
+import br.com.eshopper.ecommerce.models.wrapers.ShoppingPerson;
 
 @Repository
 public class ShoppingPersonDAO {
@@ -17,7 +17,7 @@ public class ShoppingPersonDAO {
 
 	public List<ShoppingPerson> list() {
 
-		String jpql = "select new br.com.eshopper.ecommerce.models.ShoppingPerson"
+		String jpql = "select new br.com.eshopper.ecommerce.models.wrapers.ShoppingPerson"
 				+ "(s.product.name, s.purchase.purchaseDate, COUNT(s.id), SUM(s.total), s.product.person.personType, s.product.category.categoryType, s.product.brand.brandType)"
 				+ " from Sale s"
 				+ " GROUP BY s.product.person.personType, s.product.name"

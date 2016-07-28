@@ -2,258 +2,234 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="177d41d8-f0cb-49a3-9ad5-4b9523fe0d2e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__args4j_args4j_2_0_26.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_darrinholst_sass_java_gems_3_4_20_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jffi_1_2_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jffi_native_1_2_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_constants_0_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_enxio_0_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_netdb_1_1_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_posix_3_0_27.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_unixsocket_0_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_x86asm_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_lltyk_dojo_shrinksafe_1_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_sommeri_less4j_1_17_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_javascript_closure_compiler_externs_v20160315.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_javascript_closure_compiler_v20160315.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_headius_invokebinder_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_headius_options_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_martiansoftware_nailgun_server_0_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_qdox_qdox_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__me_n4u_sass_sass_gems_3_1_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_co_edmi_bourbon_gem_jar_2_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_gmaven_feature_gmaven_feature_api_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_gmaven_feature_gmaven_feature_support_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_gmaven_runtime_gmaven_runtime_1_7_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_gmaven_runtime_gmaven_runtime_api_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_gmaven_runtime_gmaven_runtime_support_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_all_1_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_2_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_dirgra_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_extras_bytelist_1_0_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_jcodings_jcodings_1_0_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_joni_joni_2_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_jruby_core_9_0_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_jruby_stdlib_9_0_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mozilla_rhino_1_7_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_gshell_gshell_io_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_7_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_coffee_script_1_10_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_emberjs_1_9_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_envjs_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_handlebars_3_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_1_10_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jshint_2_6_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jslint_20140708_394bf29.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_json2_20110223.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_less_1_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_0_30.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_30.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ro_isdc_wro4j_wro4j_core_1_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ro_isdc_wro4j_wro4j_extensions_1_8_0.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/conf/AmazonConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/conf/AppWebConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/conf/JPAConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/conf/SecurityConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/conf/ServletSpringMVC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/conf/SpringSecurityFilterConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/controllers/HomeController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/controllers/PaymentController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/controllers/PaymentData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/controllers/ProductsController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/controllers/ShoppingCartController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/daos/ProductDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/daos/UserDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/infra/FileSaver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/models/Product.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/models/Role.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/models/ShoppingCart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/models/ShoppingItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/models/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/service/IntegrandoComPagamento.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/validation/ProductValidator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/classes/br/com/casadocodigo/loja/viewresolver/JsonViewResolver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/activation-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/async-http-client-1.7.19.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-autoscaling-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-cloudformation-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-cloudfront-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-cloudsearch-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-cloudtrail-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-cloudwatch-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-cloudwatchmetrics-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-codedeploy-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-cognitoidentity-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-cognitosync-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-config-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-core-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-datapipeline-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-directconnect-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-dynamodb-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-ec2-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-elasticache-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-elasticbeanstalk-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-elasticloadbalancing-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-elastictranscoder-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-emr-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-glacier-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-iam-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-importexport-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-kinesis-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-kms-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-lambda-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-logs-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-opsworks-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-rds-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-redshift-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-route53-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-s3-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-ses-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-simpledb-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-simpleworkflow-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-sns-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-sqs-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-storagegateway-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-sts-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-support-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/aws-java-sdk-swf-libraries-1.9.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/bcmail-jdk14-1.38.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/bcmail-jdk14-138.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/bcprov-jdk14-1.38.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/bcprov-jdk14-138.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/bctsp-jdk14-1.38.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/commons-codec-1.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/commons-collections-3.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/commons-lang-2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/commons-lang3-3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/config-1.0.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/core-2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/ecj-4.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/fastjson-1.1.37.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/flying-saucer-core-9.0.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/flying-saucer-pdf-9.0.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/guava-18.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/hibernate-commons-annotations-4.0.4.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/hibernate-core-4.3.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/hibernate-entitymanager-4.3.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/hibernate-validator-4.1.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/httpclient-4.3.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/httpcore-4.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/itext-2.1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/jackson-annotations-2.5.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/jackson-core-2.5.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/jackson-databind-2.5.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/jandex-1.1.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/javase-2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/javassist-3.18.1-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/jboss-logging-3.1.3.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/jcl-over-slf4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/jsr305-2.0.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/jstl-api-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/jstl-impl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/log4j-1.2.16.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/mail-1.4.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/mvel2-2.1.5.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/mysql-connector-java-5.1.15.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/netty-3.6.6.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/netty-all-4.0.28.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/opencsv-2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/parsii-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/pat-1.5.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/poi-3.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/rythm-engine-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/s3ninja-2.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/server-sass-1.3.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/sigar-1.6.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/sirius-ipl-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/sirius-kernel-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/sirius-web-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/slf4j-api-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/spring-aop-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/spring-beans-4.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/spring-context-4.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/spring-context-support-4.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/spring-core-4.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/spring-expression-4.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/spring-jdbc-4.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/spring-orm-4.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/spring-security-acl-4.0.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/spring-security-config-4.0.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/spring-security-core-4.0.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/spring-security-taglibs-4.0.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/spring-security-test-4.0.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/spring-security-web-4.0.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/spring-tx-4.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/spring-web-4.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/spring-webmvc-4.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/validation-api-1.0.0.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/velocity-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/lib/xml-apis-1.0.b2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/views/products/show.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/views/shoppingCart/items.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/casadocodigo-springmvc/WEB-INF/web.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_2_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__eclipse_jdtcore_3_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jfree_jcommon_1_0_15.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jfree_jfreechart_1_0_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jasperreports_jasperreports_5_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_castor_castor_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_9_4_1201_jdbc41.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_redis_1_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_3_02.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_1_37.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_autoscaling_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_cloudformation_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_cloudfront_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_cloudsearch_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_cloudtrail_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_cloudwatch_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_cloudwatchmetrics_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_codedeploy_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_cognitoidentity_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_cognitosync_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_config_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_core_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_datapipeline_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_directconnect_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_dynamodb_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_ec2_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_elasticache_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_elasticbeanstalk_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_elasticloadbalancing_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_elastictranscoder_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_emr_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_glacier_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_iam_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_importexport_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_kinesis_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_kms_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_lambda_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_logs_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_opsworks_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_rds_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_redshift_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_route53_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_s3_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_ses_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_simpledb_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_simpleworkflow_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_sns_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_sqs_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_storagegateway_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_sts_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_support_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_swf_libraries_1_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_javase_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_ning_async_http_client_1_7_19.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_scireum_parsii_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_scireum_s3ninja_2_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_scireum_server_sass_1_3_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_scireum_sirius_ipl_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_scireum_sirius_kernel_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_scireum_sirius_web_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_stevesoft_pat_pat_1_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_6_6_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_28_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_core_compiler_ecj_4_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_sigar_1_6_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mvel_mvel2_2_1_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_rythmengine_rythm_engine_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_1_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xhtmlrenderer_flying_saucer_core_9_0_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xhtmlrenderer_flying_saucer_pdf_9_0_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/ShoppingBrand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/ShoppingCategory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/ShoppingPerson.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_4.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_lowagie_itext_2_1_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lowagie_itext_2_1_7_js2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_2_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_8_2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_7_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_6_4_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_6_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_1_9_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/models/ShoppingBrand.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/models/wrapers/ShoppingBrand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/models/ShoppingCategory.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/models/wrapers/ShoppingCategory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/models/ShoppingPerson.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/models/wrapers/ShoppingPerson.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/conf/AppWebConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/conf/AppWebConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/conf/JPAConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/conf/JPAConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/conf/JPAProductionConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/conf/JPAProductionConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/conf/SecurityConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/conf/SecurityConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/conf/ServletSpringMVC.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/conf/ServletSpringMVC.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/conf/SpringSecurityFilterConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/conf/SpringSecurityFilterConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/CategoriesController.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/CategoriesController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/HomeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/PaymentController.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/PaymentController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/PaymentData.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/PaymentData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/ProductsController.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/ProductsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/ProductsListController.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/ProductsListController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/ReportController.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/ReportController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/ShoppingCartController.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/ShoppingCartController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/UserController.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/integrations/CorreiosRestController.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/integrations/CorreiosRestController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/integrations/PurchaseRestController.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/integrations/PurchaseRestController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/integrations/ShoppingCartRestController.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/controllers/integrations/ShoppingCartRestController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/correiosws/ClientCorreios.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/correiosws/ClientCorreios.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/daos/BrandDAO.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/daos/BrandDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/daos/CategoryDAO.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/daos/CategoryDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/daos/PersonDAO.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/daos/PersonDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/daos/ProductDAO.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/daos/ProductDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/daos/PurchaseDAO.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/daos/PurchaseDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/daos/SaleDAO.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/daos/SaleDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/daos/ShoppingBrandDAO.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/daos/ShoppingBrandDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/daos/ShoppingCategoryDAO.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/daos/ShoppingCategoryDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/daos/ShoppingPersonDAO.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/daos/ShoppingPersonDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/daos/UserDAO.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/daos/UserDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/exceptions/InvalidQuantityException.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/exceptions/InvalidQuantityException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/formatters/ProductIdFormatter.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/formatters/ProductIdFormatter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/infra/FileSaver.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/infra/FileSaver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/Brand.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/Brand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/BrandType.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/BrandType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/CartDto.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/CartDto.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/Category.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/Category.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/CategoryType.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/CategoryType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/CorreiosDto.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/CorreiosDto.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/DomainObject.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/DomainObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/EmptyJsonResponse.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/EmptyJsonResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/Person.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/Person.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/PersonType.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/PersonType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/Product.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/ProductFilter.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/ProductFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/ProductId.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/ProductId.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/Purchase.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/Purchase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/PurchaseStatus.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/PurchaseStatus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/Role.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/Role.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/Sale.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/Sale.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/ShoppingCart.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/ShoppingCart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/ShoppingItem.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/ShoppingItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/SummaryUser.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/models/SummaryUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/services/PaymentService.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/services/PaymentService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/services/ProductService.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/services/ProductService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/services/UserService.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/services/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/ArrayOfCServico.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/ArrayOfCServico.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CResultado.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CResultado.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CServico.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CServico.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrazo.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrazo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrazoData.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrazoData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrazoDataResponse.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrazoDataResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrazoResponse.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrazoResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrazoRestricao.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrazoRestricao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrazoRestricaoResponse.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrazoRestricaoResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPreco.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPreco.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoData.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoDataResponse.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoDataResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoFAC.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoFAC.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoFACResponse.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoFACResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoPrazo.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoPrazo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoPrazoData.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoPrazoData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoPrazoDataResponse.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoPrazoDataResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoPrazoResponse.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoPrazoResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoPrazoRestricao.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoPrazoRestricao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoPrazoRestricaoResponse.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoPrazoRestricaoResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoPrazoWS.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoPrazoWS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoPrazoWSSoap.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoPrazoWSSoap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoResponse.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/CalcPrecoResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/ObjectFactory.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/ObjectFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/package-info.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/soap/correios/package-info.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/supports/BrandEditor.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/supports/BrandEditor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/supports/CategoryEditor.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/supports/CategoryEditor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/supports/PersonEditor.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/supports/PersonEditor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/validation/ProductValidator.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/validation/ProductValidator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/viewresolver/JsonViewResolver.class" afterPath="$PROJECT_DIR$/target/classes/br/com/eshopper/ecommerce/viewresolver/JsonViewResolver.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/br/com/casadocodigo/loja/builders/ProductBuilder.class" afterPath="$PROJECT_DIR$/target/test-classes/br/com/casadocodigo/loja/builders/ProductBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/br/com/casadocodigo/loja/conf/DataSourceConfigurationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/br/com/casadocodigo/loja/conf/DataSourceConfigurationTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/br/com/casadocodigo/loja/controllers/ProductsControllerTest$1.class" afterPath="$PROJECT_DIR$/target/test-classes/br/com/casadocodigo/loja/controllers/ProductsControllerTest$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/br/com/casadocodigo/loja/controllers/ProductsControllerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/br/com/casadocodigo/loja/controllers/ProductsControllerTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/br/com/casadocodigo/loja/daos/ProductDAOTest.class" afterPath="$PROJECT_DIR$/target/test-classes/br/com/casadocodigo/loja/daos/ProductDAOTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/casadocodigo_springmvc_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/casadocodigo_springmvc_war.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/br/com/casadocodigo/loja/daos/TypeShoppingDAOTest.class" afterPath="$PROJECT_DIR$/target/test-classes/br/com/casadocodigo/loja/daos/TypeShoppingDAOTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/casadocodigo_springmvc_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/casadocodigo_springmvc_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/casadocodigo-springmvc.iml" afterPath="$PROJECT_DIR$/casadocodigo-springmvc.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/conf/AppWebConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/conf/AppWebConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/conf/SecurityConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/conf/SecurityConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/controllers/PaymentController.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/controllers/PaymentController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/daos/SummaryDataDAO.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/daos/SummaryDataDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/daos/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/daos/UserDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/models/ShoppingItem.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/models/ShoppingItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/models/SummaryData.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/models/SummaryData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/models/User.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/models/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/services/PaymentService.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/services/PaymentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/services/SummaryDataService.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/services/SummaryDataService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/messages_en_US.properties" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/messages_en_US.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/features.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/features.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/show.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/show.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/conf/ServletSpringMVC.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/conf/ServletSpringMVC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/controllers/ReportController.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/controllers/ReportController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/daos/PurchaseDAO.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/daos/PurchaseDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/daos/SaleDAO.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/daos/SaleDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/daos/ShoppingBrandDAO.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/daos/ShoppingBrandDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/daos/ShoppingCategoryDAO.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/daos/ShoppingCategoryDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/daos/ShoppingPersonDAO.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/daos/ShoppingPersonDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shoppingCart/items.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shoppingCart/items.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/footer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/footer.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/slider.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/slider.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/wro.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/wro.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/wro/main.css" afterPath="$PROJECT_DIR$/src/main/webapp/wro/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/lib/header.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/lib/header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/lib/shoppingCart/server-context.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/lib/shoppingCart/server-context.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/wro/itemsScripts.js" afterPath="$PROJECT_DIR$/src/main/webapp/wro/itemsScripts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/wro/main.js" afterPath="$PROJECT_DIR$/src/main/webapp/wro/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.eshopper.ecommerce/eshopper-ecommerce/pom.properties" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.eshopper.ecommerce/eshopper-ecommerce/pom.properties" />
     </list>
     <ignored path="casadocodigo-springmvc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -285,23 +261,39 @@
     <favorites_list name="casadocodigo-springmvc" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="items.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shoppingCart/items.jsp">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ShoppingBrandDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/daos/ShoppingBrandDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="643">
-              <caret line="76" column="37" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
+            <state relative-caret-position="187">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pageTemplate.tag" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/pageTemplate.tag">
+      <file leaf-file-name="ShoppingBrand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/models/wrapers/ShoppingBrand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="48" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1031#1032#0" expanded="false" />
+                <element signature="e#1052#1053#0" expanded="false" />
+                <element signature="e#1086#1087#0" expanded="false" />
+                <element signature="e#1122#1123#0" expanded="false" />
+                <element signature="e#1152#1153#0" expanded="false" />
+                <element signature="e#1174#1175#0" expanded="false" />
+                <element signature="e#1207#1208#0" expanded="false" />
+                <element signature="e#1226#1227#0" expanded="false" />
+                <element signature="e#1262#1263#0" expanded="false" />
+                <element signature="e#1295#1296#0" expanded="false" />
+                <element signature="e#1329#1330#0" expanded="false" />
+                <element signature="e#1360#1361#0" expanded="false" />
+                <element signature="e#1393#1394#0" expanded="false" />
+                <element signature="e#1423#1424#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -335,7 +327,6 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/JPAConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/left-sidebar.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/CategoryType.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0e9bcd51-16e6-44b8-8ead-173aba199799/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/PersonType.java" />
         <option value="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.2.0.RELEASE/spring-context-4.2.0.RELEASE.jar!/org/springframework/ui/context/Theme.class" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/daos/ProductDAO.java" />
@@ -347,7 +338,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/viewresolver/JsonViewResolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/CartDto.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/ShoppingCartValidator.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/messages.properties" />
@@ -360,13 +350,18 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ShoppingCartController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/lib/shoppingCart/cart.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/pageTemplate.tag" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/footer.jsp" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0e9bcd51-16e6-44b8-8ead-173aba199799/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/daos/ShoppingBrandDAO.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -421,21 +416,38 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="casadocodigo-springmvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="casadocodigo-springmvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e-shopper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="integ&#9;PSI&#9;JAVA://br.com.casadocodigo.loja.service.IntegrandoComPagamento&#10;payment&#9;PSI&#9;JAVA://br.com.casadocodigo.loja.controllers.PaymentController&#10;show.j&#9;FILE&#9;file://C:/Users/Erick/workspace/e-shopper/src/main/webapp/WEB-INF/views/products/show.jsp&#10;layout&#9;ACTION&#9;Runner.Layout&#10;theme&#9;ACTION&#9;Android.ShowThemeEditor&#10;productDAO&#9;PSI&#9;JAVA://br.com.casadocodigo.loja.daos.ProductDAO&#10;mysql&#9;null&#9;null&#10;header.js&#9;FILE&#9;file://C:/Users/Erick/workspace/e-shopper/src/main/webapp/WEB-INF/views/template/header.jsp&#10;lay&#9;PSI&#9;JAVA://com.sun.javafx.webkit.prism.WCGraphicsPrismContext.Layer&#10;left-si&#9;FILE&#9;file://C:/Users/Erick/workspace/e-shopper/src/main/webapp/WEB-INF/views/template/left-sidebar.jsp&#10;pageTempla&#9;FILE&#9;file://C:/Users/Erick/workspace/e-shopper/src/main/webapp/WEB-INF/tags/pageTemplate.tag&#10;home.js&#9;FILE&#9;file://C:/Users/Erick/workspace/e-shopper/src/main/webapp/WEB-INF/views/home.jsp" />
+    <property name="SearchEverywhereHistoryKey" value="Repor&#9;PSI&#9;JAVA://br.com.eshopper.ecommerce.controllers.ReportController&#10;ShoppingBran&#9;PSI&#9;JAVA://br.com.eshopper.ecommerce.models.wrapers.ShoppingBrand&#10;Shopp&#9;PSI&#9;JAVA://br.com.eshopper.ecommerce.daos.ShoppingBrandDAO&#10;SaleD&#9;PSI&#9;JAVA://br.com.eshopper.ecommerce.daos.SaleDAO&#10;ShoppingCate&#9;PSI&#9;JAVA://br.com.eshopper.ecommerce.models.wrapers.ShoppingCategoryChart&#10;app&#9;PSI&#9;JAVA://br.com.eshopper.ecommerce.conf.AppWebConfiguration&#10;git&#9;null&#9;null&#10;github&#9;ACTION&#9;Github.Share&#10;System&#9;PSI&#9;JAVA://br.com.eshopper.ecommerce.models.SystemUser&#10;footer&#9;FILE&#9;file://C:/Users/Erick/workspace/e-shopper/src/main/webapp/WEB-INF/views/template/footer.jsp&#10;header&#9;FILE&#9;file://C:/Users/Erick/workspace/e-shopper/src/main/webapp/WEB-INF/views/template/header.jsp&#10;page&#9;FILE&#9;file://C:/Users/Erick/workspace/e-shopper/src/main/webapp/WEB-INF/tags/pageTemplate.tag&#10;integ&#9;PSI&#9;JAVA://br.com.casadocodigo.loja.service.IntegrandoComPagamento&#10;payment&#9;PSI&#9;JAVA://br.com.casadocodigo.loja.controllers.PaymentController&#10;show.j&#9;FILE&#9;file://C:/Users/Erick/workspace/e-shopper/src/main/webapp/WEB-INF/views/products/show.jsp&#10;layout&#9;ACTION&#9;Runner.Layout&#10;theme&#9;ACTION&#9;Android.ShowThemeEditor&#10;productDAO&#9;PSI&#9;JAVA://br.com.casadocodigo.loja.daos.ProductDAO&#10;mysql&#9;null&#9;null&#10;header.js&#9;FILE&#9;file://C:/Users/Erick/workspace/e-shopper/src/main/webapp/WEB-INF/views/template/header.jsp&#10;lay&#9;PSI&#9;JAVA://com.sun.javafx.webkit.prism.WCGraphicsPrismContext.Layer&#10;left-si&#9;FILE&#9;file://C:/Users/Erick/workspace/e-shopper/src/main/webapp/WEB-INF/views/template/left-sidebar.jsp&#10;pageTempla&#9;FILE&#9;file://C:/Users/Erick/workspace/e-shopper/src/main/webapp/WEB-INF/tags/pageTemplate.tag&#10;home.js&#9;FILE&#9;file://C:/Users/Erick/workspace/e-shopper/src/main/webapp/WEB-INF/views/home.jsp" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="full.screen.before.presentation.mode" value="false" />
@@ -879,6 +891,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 8.0.33" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.33" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -984,6 +997,13 @@
       <workItem from="1459829187896" duration="287000" />
       <workItem from="1459900286653" duration="949000" />
       <workItem from="1461341364096" duration="937000" />
+      <workItem from="1463194001686" duration="370000" />
+      <workItem from="1463339494214" duration="804000" />
+      <workItem from="1463340493273" duration="1501000" />
+      <workItem from="1463347008057" duration="58000" />
+      <workItem from="1463347461373" duration="202000" />
+      <workItem from="1463348408824" duration="615000" />
+      <workItem from="1463601180420" duration="1930000" />
     </task>
     <servers />
   </component>
@@ -1002,7 +1022,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68814000" />
+    <option name="totallyTimeSpent" value="74294000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1015,33 +1035,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3584288" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.49394855" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3584288" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.49394855" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3584288" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38297874" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23499268" sideWeight="0.4680851" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2344932" sideWeight="0.4680851" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24281392" sideWeight="0.5319149" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24281392" sideWeight="0.5319149" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1049,7 +1068,8 @@
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1109,70 +1129,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shoppingCart/items.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/ShoppingCart.java" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspdirectives2_1.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="176" column="4" selection-start-line="176" selection-start-column="4" selection-end-line="176" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/casadocodigo/loja/daos/ProductDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/conf/JPAConfiguration.java" />
-    <entry file="dbDummy://dbtable:/cbcb10c7/0e9bcd51-16e6-44b8-8ead-173aba199799/eshopper.user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.16/log4j-1.2.16.jar!/org/apache/log4j/Layout.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/javafx-src.zip!/com/sun/javafx/webkit/prism/WCGraphicsPrismContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="1323" column="34" selection-start-line="1323" selection-start-column="34" selection-end-line="1323" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/left-sidebar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0e9bcd51-16e6-44b8-8ead-173aba199799/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/CategoryType.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/PersonType.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/ProductFilter.java" />
@@ -1255,13 +1211,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/models/CartDto.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="79" column="65" selection-start-line="79" selection-start-column="65" selection-end-line="79" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1287,28 +1236,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/messages_en_US.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/messages.properties">
       <provider editor-type-id="ResourceBundle">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/messages.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="16" />
         </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/casadocodigo/loja/controllers/ProductsController.java" />
@@ -1339,18 +1287,113 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/meta.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="367" column="22" selection-start-line="367" selection-start-column="22" selection-end-line="367" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shoppingCart/items.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
+        <state relative-caret-position="523">
           <caret line="76" column="37" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/pageTemplate.tag">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/models/SystemUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="29" column="25" selection-start-line="27" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0e9bcd51-16e6-44b8-8ead-173aba199799/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/conf/AppWebConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/daos/SaleDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/models/wrapers/ShoppingCategoryChart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/models/wrapers/ShoppingBrand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="48" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1031#1032#0" expanded="false" />
+            <element signature="e#1052#1053#0" expanded="false" />
+            <element signature="e#1086#1087#0" expanded="false" />
+            <element signature="e#1122#1123#0" expanded="false" />
+            <element signature="e#1152#1153#0" expanded="false" />
+            <element signature="e#1174#1175#0" expanded="false" />
+            <element signature="e#1207#1208#0" expanded="false" />
+            <element signature="e#1226#1227#0" expanded="false" />
+            <element signature="e#1262#1263#0" expanded="false" />
+            <element signature="e#1295#1296#0" expanded="false" />
+            <element signature="e#1329#1330#0" expanded="false" />
+            <element signature="e#1360#1361#0" expanded="false" />
+            <element signature="e#1393#1394#0" expanded="false" />
+            <element signature="e#1423#1424#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/controllers/ReportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/eshopper/ecommerce/daos/ShoppingBrandDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -9,28 +9,28 @@ import br.com.eshopper.ecommerce.models.Product;
 public class ProductBuilder {
 
 	private List<Product> products = new ArrayList<Product>();
-
+	
 	private ProductBuilder(Product product) {
 		products.add(product);
-
 	}
-
+	
 	public static ProductBuilder newProduct(BigDecimal value) {
-		Product book = create("T-shirt", value);
-		return new ProductBuilder(book);
+		Product tShirt = create("T-shirt", value);
+		return new ProductBuilder(tShirt);
 	}
 
 	public static ProductBuilder newProduct() {
-		Product book = create("Hat", BigDecimal.TEN);
-		return new ProductBuilder(book);
+		Product hat = create("Hat", BigDecimal.TEN);
+		return new ProductBuilder(hat);
 	}
 
-	private static Product create(String bookName, BigDecimal value) {
-		Product book = new Product();
-		book.setName(bookName);
+	private static Product create(String productName, BigDecimal value) {
+		Product product = new Product();
+		product.setPrice(value);
+		product.setName(productName);
 		
-		book.setDescription("great book about testing");
-		return book;
+		product.setDescription("great t-shirt to wear");
+		return product;
 	}
 
 	public ProductBuilder more(int number) {
@@ -41,7 +41,7 @@ public class ProductBuilder {
 		}
 		return this;
 	}
-
+	
 	public Product buildOne() {
 		return products.get(0);
 	}

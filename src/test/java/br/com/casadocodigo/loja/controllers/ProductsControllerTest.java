@@ -26,8 +26,8 @@ import br.com.eshopper.ecommerce.conf.SecurityConfiguration;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration
-@ContextConfiguration(classes = { AppWebConfiguration.class, JPAConfiguration.class, RedisConfiguration.class, SecurityConfiguration.class,
-		JPADataSourceConfigurationTest.class})
+@ContextConfiguration(classes = { AppWebConfiguration.class, JPAConfiguration.class, RedisConfiguration.class,
+		SecurityConfiguration.class, JPADataSourceConfigurationTest.class })
 @ActiveProfiles("test")
 public class ProductsControllerTest {
 
@@ -35,8 +35,7 @@ public class ProductsControllerTest {
 	private WebApplicationContext wac;
 
 	private MockMvc mockMvc;
-
-	// pq tem apenas esse filtro
+	
 	@Autowired
 	private Filter springSecurityFilterChain;
 
@@ -47,10 +46,16 @@ public class ProductsControllerTest {
 
 	@Test
 	public void onlyAdminShoudAccessProductsForm() throws Exception {
-		// poderia usar o isFound()
+		
 		this.mockMvc.perform(get("/admin/form").with(
 				SecurityMockMvcRequestPostProcessors.user("comprador@gmail.com").password("123456").roles("COMPRADOR")))
 				.andExpect(status().is(403));
+	}
+
+	@Test
+	public void anyUserShouldAccessLoginPage() throws Exception {
+		this.mockMvc.perform(get("/").with(SecurityMockMvcRequestPostProcessors.authentication(null)))
+				.andExpect(status().is(200));
 	}
 
 }

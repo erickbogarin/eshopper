@@ -45,7 +45,7 @@ public class ProductsController {
 		 binder.registerCustomEditor(Category.class, this.categoryEditor);
 		 binder.registerCustomEditor(Person.class, this.personEditor);
 	}
-
+	
 	@RequestMapping(method = RequestMethod.POST)
 	public ModelAndView save(MultipartFile smallPhoto, MultipartFile mediumPhoto, MultipartFile largePhoto,
 			@Valid Product product, BindingResult bindingResult, RedirectAttributes redirectAttributes) {

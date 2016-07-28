@@ -12,8 +12,7 @@
 						<h2>
 							<span>e</span>-shopper
 						</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing
-							elit,sed do eiusmod tempor</p>
+						<p>Projeto demostrativo desenvolvido por <a href="http://erickbogarin.com.br">Erick Bogarin</a></p>
 					</div>
 				</div>
 				<div class="col-sm-7">

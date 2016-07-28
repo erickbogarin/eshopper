@@ -18,7 +18,9 @@
     <jsp:body>
 
         <main>
-        
+       		
+       		<input id="serverContext" type="hidden" value="${uploadedImages }"/> 
+       		 
         	<c:if test="${not empty falha}" >
                 <div class="alert alert-danger alert-dismissible" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -70,10 +72,8 @@
                                         <td class="cart_quantity">
                                             <div class="cart_quantity_button">
                                                 <a class="cart_quantity_up" href=""> + </a>
-                                                <input class="cart_quantity_input" type=number name="quantity"
-                                                            value="${shoppingCart.getQuantity(item)}"
-                                                            min="1"
-                                                             max="99">
+                                                <input class="cart_quantity_input" type=text name="quantity"
+                                                            value="${shoppingCart.getQuantity(item)}" maxlength="2">
                                                 <a class="cart_quantity_down" href=""> - </a>
                                             </div>
                                             <img class="loading" src="${classPath }/images/base/loading.gif" alt="Carregando"/>

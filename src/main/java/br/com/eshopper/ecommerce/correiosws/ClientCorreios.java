@@ -17,9 +17,9 @@ public class ClientCorreios {
         String cepOrigem  = "04101300";
         String peso3kg = "1";
         BigDecimal comprimento20cm = new BigDecimal(20);
-        BigDecimal altura10cm = new BigDecimal(10);
+        BigDecimal altura10cm = BigDecimal.TEN;
         BigDecimal largura15cm = new BigDecimal(15);
-        BigDecimal diametro10cm = new BigDecimal(10);
+        BigDecimal diametro10cm = BigDecimal.TEN;
         int formatoEncomendaCaixa = 1;
         BigDecimal semValorDeclarado= BigDecimal.ZERO;
         String semEntregueEmMaos = "N";

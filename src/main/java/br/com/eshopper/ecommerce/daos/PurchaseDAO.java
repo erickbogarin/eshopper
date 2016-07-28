@@ -31,5 +31,5 @@ public class PurchaseDAO {
 		String jpql = "select p from Purchase p ORDER BY p.purchaseDate DESC";
 		return manager.createQuery(jpql, Purchase.class).setMaxResults(20).getResultList();
 	}
-	
+		
 }

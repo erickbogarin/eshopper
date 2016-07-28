@@ -40,7 +40,7 @@ public class ShoppingCart implements Serializable {
     }
     
     public void changeQuantity(ShoppingItem item, Integer quantity) {
-    	if(quantity > 1) items.replace(item, getQuantity(item), quantity);
+    	if(quantity >= 1) items.replace(item, getQuantity(item), quantity);
 	}
 
     public Integer getQuantity() {
