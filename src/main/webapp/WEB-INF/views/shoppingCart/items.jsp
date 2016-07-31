@@ -19,7 +19,7 @@
 
         <main>
        		
-       		<input id="serverContext" type="hidden" value="${uploadedImages }"/> 
+       		<input id="urlPath" type="hidden" value="${uploadedImages }"/> 
        		 
         	<c:if test="${not empty falha}" >
                 <div class="alert alert-danger alert-dismissible" role="alert">
@@ -73,7 +73,7 @@
                                             <div class="cart_quantity_button">
                                                 <a class="cart_quantity_up" href=""> + </a>
                                                 <input class="cart_quantity_input" type=text name="quantity"
-                                                            value="${shoppingCart.getQuantity(item)}" maxlength="2">
+                                                            value="${shoppingCart.getQuantity(item)}">
                                                 <a class="cart_quantity_down" href=""> - </a>
                                             </div>
                                             <img class="loading" src="${classPath }/images/base/loading.gif" alt="Carregando"/>

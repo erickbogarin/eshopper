@@ -15,6 +15,8 @@ import javax.validation.constraints.NotNull;
 import org.hibernate.annotations.Type;
 import org.hibernate.validator.constraints.NotBlank;
 
+import br.com.eshopper.ecommerce.formatters.ProductIdNameFormatter;
+
 @Entity 
 public class Product implements Serializable{
 
@@ -43,6 +45,14 @@ public class Product implements Serializable{
 	@ManyToOne
 	private Person person;
 	
+	public Product() {
+	}
+	
+	public Product(Integer id, BigDecimal price) {
+		this.id = id;
+		this.price = price;
+	}
+
 	public Integer getId() {
 		return id;
 	}
@@ -52,8 +62,8 @@ public class Product implements Serializable{
 	public String getNameId() {
 		return nameId;
 	}
-	public void setNameId(String nameId) {
-		this.nameId = nameId;
+	public void setNameId(String unformattedNameId) {
+		this.nameId = ProductIdNameFormatter.format(unformattedNameId );
 	}
 	public String getName() {
 		return name;

@@ -93,6 +93,7 @@ public class Purchase implements Serializable {
 	}
 	
 	public void addSale(Sale sale) {
+		sale.setPurchase(this);
 		this.sales.add(sale);
 	}
 	
@@ -106,9 +107,14 @@ public class Purchase implements Serializable {
 	public void setUser(SystemUser user) {
 		this.user = user;
 	}
+	
+	public void chargeFreight(BigDecimal freight) {
+		this.price = this.price.add(freight); 
+	}
+	
 	@Override
 	public String toString() {
 		return "Purchase [price=" + price + ", purchaseDate=" + purchaseDate +  "]";
 	}
-
+	
 }

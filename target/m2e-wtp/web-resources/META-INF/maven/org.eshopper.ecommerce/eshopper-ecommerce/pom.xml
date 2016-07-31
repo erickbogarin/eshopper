@@ -136,7 +136,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		
+
 		<!-- Javax Inject -->
 		<dependency>
 			<groupId>javax.inject</groupId>

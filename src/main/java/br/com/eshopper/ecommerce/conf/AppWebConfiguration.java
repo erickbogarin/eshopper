@@ -43,7 +43,7 @@ import br.com.eshopper.ecommerce.controllers.HomeController;
 import br.com.eshopper.ecommerce.daos.ProductDAO;
 import br.com.eshopper.ecommerce.infra.FileSaver;
 import br.com.eshopper.ecommerce.models.ShoppingCart;
-import br.com.eshopper.ecommerce.services.PaymentService;
+import br.com.eshopper.ecommerce.servicelayer.PaymentService;
 import br.com.eshopper.ecommerce.supports.CategoryEditor;
 import br.com.eshopper.ecommerce.viewresolver.JsonViewResolver;
 

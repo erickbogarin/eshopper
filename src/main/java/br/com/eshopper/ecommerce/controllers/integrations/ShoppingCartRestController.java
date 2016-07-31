@@ -1,5 +1,7 @@
 package br.com.eshopper.ecommerce.controllers.integrations;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.context.annotation.Scope;
@@ -26,7 +28,9 @@ public class ShoppingCartRestController {
 
     @Autowired
     private ShoppingCart shoppingCart;
-
+    
+    private Logger logger = LoggerFactory.getLogger(ShoppingCartRestController.class);
+    
     private ShoppingItem item;
     
     @RequestMapping(value = "/increaseItem")
@@ -37,13 +41,21 @@ public class ShoppingCartRestController {
 
     @RequestMapping(value = "/decreaseItem")
     public CartDto decreaseItem(@RequestParam(value="productId") Integer productId) {
-        shoppingCart.decreaseItem(createItem(productId));
+        try { 
+        	shoppingCart.decreaseItem(createItem(productId));
+        } catch(RuntimeException e) {
+        	logger.warn(e.getMessage());
+        }
         return createCartDto();
     }
     
     @RequestMapping(value = "/changeItemQuantity")
     public CartDto changeQuantity(@RequestParam(value="productId") Integer productId, @RequestParam(value="quantity") Integer quantity) {
-    	shoppingCart.changeQuantity(createItem(productId), quantity);
+    	try {
+    		shoppingCart.changeQuantity(createItem(productId), quantity);
+    	} catch(RuntimeException e) {
+    		logger.warn(e.getMessage());
+        }
     	return createCartDto();
     }
     

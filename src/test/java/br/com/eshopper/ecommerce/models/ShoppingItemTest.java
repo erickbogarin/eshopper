@@ -1,41 +1,33 @@
 package br.com.eshopper.ecommerce.models;
 
-import static java.util.stream.Collectors.toList;
 import static org.junit.Assert.assertEquals;
 
 import java.math.BigDecimal;
-import java.util.List;
 
 import org.junit.Test;
-
-import br.com.casadocodigo.loja.builders.ProductBuilder;
 
 public class ShoppingItemTest {
 	
 	@Test
-	public void shoudCalculateThePriceOfItemWithOneProductOnly() {
+	public void shoudCalculateThePriceOfOneProduct() {
 		BigDecimal expectedPrice = BigDecimal.valueOf(34.5);
-		Product product = ProductBuilder.newProduct(expectedPrice).buildOne();
-		
+
+		Product product = new Product(50, expectedPrice);
 		ShoppingItem item = new ShoppingItem(product);
-		BigDecimal total = item.getTotal(1);
 		
-		assertEquals(expectedPrice, total);
+		assertEquals(expectedPrice, item.getPrice());
 	}
 	
 	@Test
-	public void shouldCalculateThePriceOfTheProductItemByQuantityIndicated() {
-		List<Product> products = ProductBuilder.newProduct(BigDecimal.valueOf(40.5)).more(2).buildAll();
-			
-		BigDecimal expectedResult = products.stream()
-				.map(Product::getPrice).reduce(BigDecimal.ZERO, BigDecimal::add);
-		
-		ShoppingItem item = products.stream().map(ShoppingItem::new).collect(toList()).get(0);
-		BigDecimal total = item.getTotal(products.size());
-		
-		assertEquals(expectedResult, total);
+	public void shoudCalculateTotalPriceOfFiveProducts() {
+		BigDecimal price = BigDecimal.valueOf(55.5);
+		int quantity = 5;
+		BigDecimal expectedPrice = price.multiply(BigDecimal.valueOf(quantity));
+
+		Product product = new Product(150, price);
+		ShoppingItem item = new ShoppingItem(product);
+
+		assertEquals(expectedPrice, item.getTotal(quantity));
 	}
 	
-	
-
 }

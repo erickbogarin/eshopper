@@ -14,8 +14,9 @@ import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import br.com.eshopper.ecommerce.models.PaymentData;
 import br.com.eshopper.ecommerce.models.ShoppingCart;
-import br.com.eshopper.ecommerce.services.PaymentService;
+import br.com.eshopper.ecommerce.servicelayer.PaymentService;
 
 @Controller
 @RequestMapping("/payment")
@@ -28,12 +29,8 @@ public class PaymentController {
 	@Autowired
 	private RestTemplate restTemplate;
 	
-	private ShoppingCart shoppingCart;
-	
 	@Autowired
-	public PaymentController(ShoppingCart shoppingCart) {
-		this.shoppingCart = shoppingCart;
-	}
+	private ShoppingCart shoppingCart;
 	
 	@RequestMapping(value = "checkout", method = RequestMethod.POST)
 	public Callable<ModelAndView> checkout(RedirectAttributes model) {
@@ -43,7 +40,8 @@ public class PaymentController {
 			try {
 				String response = restTemplate.postForObject(uriToPay,
 						new PaymentData(total), String.class);
-
+				
+				// Service Layout used because the use of threads
 				paymentService.save();
 				shoppingCart.clear();
 				
@@ -57,5 +55,4 @@ public class PaymentController {
 
 		};
 	}
-
 }

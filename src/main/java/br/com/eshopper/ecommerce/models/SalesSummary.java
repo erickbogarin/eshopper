@@ -17,12 +17,16 @@ public class SalesSummary implements Serializable {
 	private BigDecimal monthlyProfit;
 	private Integer monthPurchaseTotal;
 	
+	public String getPeriod() {
+		return period;
+	}
+	
 	public SalesSummary() {
 		this.period = LocalDate.now().getMonthOfYear() + "-" + LocalDate.now().getYear();
 	}
 	
-	public String getPeriod() {
-		return period;
+	public static String getCurrentPeriod() {
+		return LocalDate.now().getMonthOfYear() + "-" + LocalDate.now().getYear();
 	}
 	
 	public void setPeriod(Integer month, Integer year) {
@@ -45,7 +49,7 @@ public class SalesSummary implements Serializable {
 		this.monthPurchaseTotal = monthPurchaseTotal;
 	}
 
-	public void initialize() {
+	public void resetNewSummary() {
 		this.monthlyProfit = BigDecimal.ZERO;
 		this.monthPurchaseTotal = 0;
 	}
@@ -63,5 +67,19 @@ public class SalesSummary implements Serializable {
 		return "SalesSummary [period=" + period + ", monthlyProfit=" + monthlyProfit + ", monthPurchaseTotal="
 				+ monthPurchaseTotal + "]";
 	}
-	
+
+	public static SalesSummary ofPeriod(SalesSummary currentResume, Purchase purchase) {
+		if (currentResume == null) { 
+			currentResume = new SalesSummary();
+			currentResume.resetNewSummary();
+		} 
+		
+		Integer totalMonthlyAmount = currentResume.getMonthPurchaseTotal() + purchase.getProductsQuantity();
+		BigDecimal totalMonthlyPrice = currentResume.getMonthlyProfit().add(purchase.getPrice());
+		
+		currentResume.setMonthPurchaseTotal(totalMonthlyAmount);
+		currentResume.setMonthlyProfit(totalMonthlyPrice);
+		
+		return currentResume;
+	}
 }

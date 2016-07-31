@@ -6,7 +6,6 @@ import java.util.Collection;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Component;
@@ -18,10 +17,7 @@ import org.springframework.web.context.WebApplicationContext;
 public class ShoppingCart implements Serializable {
 
     private static final long serialVersionUID = 1L;
-    
-    @Autowired
-    private CorreiosDto correios;
-    
+        
     private Map<ShoppingItem, Integer> items = new LinkedHashMap<ShoppingItem, Integer>();
 
     public void add(ShoppingItem item) {
@@ -36,13 +32,20 @@ public class ShoppingCart implements Serializable {
     }
     
     public void decreaseItem(ShoppingItem item) {
-    	if(getQuantity(item) > 1) items.put(item, getQuantity(item) - 1);
+    	Integer amount = getQuantity(item);
+		if(amount > 1) 
+    		items.put(item, amount - 1);
+	  	else
+    		throw new IllegalArgumentException("Amount cannot be less than 1.");
     }
     
-    public void changeQuantity(ShoppingItem item, Integer quantity) {
-    	if(quantity >= 1) items.replace(item, getQuantity(item), quantity);
+    public void changeQuantity(ShoppingItem item, Integer amount) {
+    	if(amount >= 1)
+    		items.replace(item, getQuantity(item), amount);
+    	else
+    		throw new IllegalArgumentException("Amount cannot be less than 1.");
 	}
-
+    
     public Integer getQuantity() {
         return items.values().stream().reduce(0, (next, accumulator) -> next + accumulator);
     }
@@ -52,7 +55,6 @@ public class ShoppingCart implements Serializable {
     }
     
     public BigDecimal getTotal() {
-    	if(correios.getFreight() != BigDecimal.ZERO) { return getSubTotal().add(correios.getFreight()); }
     	return getSubTotal();
     }
     
@@ -66,7 +68,6 @@ public class ShoppingCart implements Serializable {
     }
 
     public void remove(ShoppingItem shoppingItem) {
-        correios.clear();
     	items.remove(shoppingItem);
     }
 
@@ -79,8 +80,6 @@ public class ShoppingCart implements Serializable {
     }
 
 	public void clear() {
-		correios.clear();
 		items.clear();
 	}
-
 }	

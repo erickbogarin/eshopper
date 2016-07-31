@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.WebApplicationContext;
 
-import br.com.eshopper.ecommerce.correiosws.ClientCorreios;
 import br.com.eshopper.ecommerce.models.CorreiosDto;
 import br.com.eshopper.ecommerce.soap.correios.CServico;
+import br.com.eshopper.ecommerce.ws.CorreiosClientWS;
 
 @RestController
 @RequestMapping(value = "/v1/correios")
@@ -24,7 +24,7 @@ public class CorreiosRestController {
 	@RequestMapping(value = "calculate")
 	public CorreiosDto correios(@RequestParam(value = "cep") String cep) throws InterruptedException {
 		
-		List<CServico> services = ClientCorreios.calculate(cep);
+		List<CServico> services = CorreiosClientWS.calculate(cep);
 		if(!cep.isEmpty())
 			saveResult(services, cep);
 		else correios.clear();

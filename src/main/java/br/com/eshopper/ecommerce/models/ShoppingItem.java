@@ -33,7 +33,11 @@ public class ShoppingItem implements Serializable {
 	public BigDecimal getPrice() {
 		return product.getPrice();
 	}
-
+	
+	public BigDecimal getTotal(Integer quantity) {
+		return getPrice().multiply(new BigDecimal(quantity));
+	}
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -64,9 +68,4 @@ public class ShoppingItem implements Serializable {
 			return false;
 		return true;
 	}
-
-	public BigDecimal getTotal(Integer quantity) {
-		return getPrice().multiply(new BigDecimal(quantity));
-	}
-
 }
