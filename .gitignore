@@ -1,1 +1,5 @@
 /target/
+/.idea
+/.project
+/.tern-project
+/docs/
