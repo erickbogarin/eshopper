@@ -26,11 +26,15 @@
 	</group>	
 	
 	<group name="itemsScripts">
-		<js>/resources/js/lib/shoppingCart/models/ShoppingCart.js</js>
-		<js>/resources/js/lib/shoppingCart/views/ShoppingCartUI.js</js>
-		<js>/resources/js/lib/shoppingCart/shopping-url-path.js</js>
-		<js>/resources/js/lib/shoppingCart/controllers/CartAjax.js</js>
-		<js>/resources/js/lib/shoppingCart/controllers/CorreiosAjax.js</js>
-		<js>/resources/js/lib/shoppingCart/index.js</js>
+		<js>/resources/js/app/shopping-url-path.js</js>
+		<js>/resources/js/app/models/ShoppingCart.js</js>
+		<js>/resources/js/app/models/ShoppingItem.js</js>
+		<js>/resources/js/app/views/ShoppingItemUI.js</js>
+		<js>/resources/js/app/views/ShoppingCartUI.js</js>
+		<js>/resources/js/app/views/FreightMessageUI.js</js>
+		<js>/resources/js/app/services/HttpService.js</js>
+		<js>/resources/js/app/services/ShoppingCartService.js</js>
+		<js>/resources/js/app/services/CorreiosService.js</js>
+		<js>/resources/js/app/controllers/ShoppingCartController.js</js>
 	</group>
 </groups>

@@ -19,6 +19,10 @@ import br.com.eshopper.ecommerce.models.Sale;
 import br.com.eshopper.ecommerce.models.SalesSummary;
 import br.com.eshopper.ecommerce.models.ShoppingCart;
 
+/**
+ * Approach for deal with threads from checkout method in PaymentController 
+ *
+ */
 @Service
 @Transactional
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
@@ -58,7 +62,7 @@ public class PaymentService {
 		// should be a logged in user but was left that way for the site to be demo
 		purchase.setUser(userDao.find("visitante@email.com"));
 		
-		// Create Sales based on each ShoppingItem from a ShoppingCart
+		// Creates Sales entity based on each ShoppingItem from a ShoppingCart
 		shoppingCart.getList().forEach(shoppingItem -> {
 			purchase.addSale(
 							new Sale(shoppingCart.getQuantity(shoppingItem), 

@@ -24,9 +24,8 @@ public class ShoppingCartTest {
 	@Test
 	public void shouldChangeAmountOfOneItemFromAShoppingCart() {
 		ShoppingItem item = ShoppingItemBuilder.withProductId(112).buildOne();
-
 		shoppingCart.add(item);
-
+		
 		int amountExpected = 5;
 		shoppingCart.changeQuantity(item, amountExpected);
 

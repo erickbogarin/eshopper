@@ -21,13 +21,13 @@ public class ShoppingItemTest {
 	@Test
 	public void shoudCalculateTotalPriceOfFiveProducts() {
 		BigDecimal price = BigDecimal.valueOf(55.5);
-		int quantity = 5;
-		BigDecimal expectedPrice = price.multiply(BigDecimal.valueOf(quantity));
+		int amount = 5;
+		BigDecimal expectedPrice = price.multiply(BigDecimal.valueOf(amount));
 
 		Product product = new Product(150, price);
 		ShoppingItem item = new ShoppingItem(product);
 
-		assertEquals(expectedPrice, item.getTotal(quantity));
+		assertEquals(expectedPrice, item.getTotal(amount));
 	}
 	
 }

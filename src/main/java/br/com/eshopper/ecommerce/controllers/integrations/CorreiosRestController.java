@@ -24,15 +24,15 @@ public class CorreiosRestController {
 	@RequestMapping(value = "calculate")
 	public CorreiosDto correios(@RequestParam(value = "cep") String cep) throws InterruptedException {
 		
-		List<CServico> services = CorreiosClientWS.calculate(cep);
+		List<CServico> calcPrecoPrazo = CorreiosClientWS.calcPrecoPrazo(cep);
 		if(!cep.isEmpty())
-			saveResult(services, cep);
+			save(calcPrecoPrazo, cep);
 		else correios.clear();
 
 		return correios;
 	}
 
-	private void saveResult(List<CServico> services, String cep) {
+	private void save(List<CServico> services, String cep) {
 		correios.cep(cep);
 		correios.freight(services.get(0).getValor());
 		correios.msgError(services.get(0).getMsgErro());

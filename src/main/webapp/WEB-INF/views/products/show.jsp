@@ -34,7 +34,7 @@
 							<span>
 								<span>R$ ${product.price }</span>
 								
-								<button type="submit" class="btn btn-fefault cart">
+								<button id="addCart" type="submit" class="btn btn-default cart">
 									<i class="fa fa-shopping-cart"></i>
 									<fmt:message key="label.cart"/>
 								</button>
@@ -43,7 +43,8 @@
 							
 							<p>
 								<b><fmt:message key="label.brand"/>:</b> 
-								${product.brand.brandType}</p>
+								${product.brand.brandType}
+							</p>
 							<a href="">
 								<img src="${classPath}/images/product-details/share.png" class="share img-responsive" alt="" />
 							</a>

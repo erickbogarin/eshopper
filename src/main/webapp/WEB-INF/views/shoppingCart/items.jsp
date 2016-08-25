@@ -11,8 +11,8 @@
 <c:url value="/wro" var="wroPath" />
 
 <tags:pageTemplate title="Carrinho | E-Shopper">
-	<jsp:attribute name="extraScripts">
-		<script src="${wroPath}/itemsScripts.js"></script>
+	<jsp:attribute name="extraScripts">		
+		<script src="${wroPath}/itemsScripts.js"></script>		
 	</jsp:attribute>
 
     <jsp:body>
@@ -30,6 +30,7 @@
             
             <section id="cart_items">
                 <div class="container">
+                    
                     <div class="breadcrumbs">
                         <ol class="breadcrumb">
                             <li>
@@ -40,6 +41,7 @@
                             <li class="active"><fmt:message key="breadcrumb.shoppingCart"/></li>
                         </ol>
                     </div>
+                    
                     <div class="table-responsive cart_info">
                         <table class="table table-condensed">
                             <thead>
@@ -52,44 +54,63 @@
                                     <td></td>
                                 </tr>
                             </thead>
+                            
                             <tbody>
                                 <c:forEach items="${shoppingCart.list}" var="item">
                                     <tr class="cart_body">
                                         <input class="item_id" type="hidden" value="${item.product.id}"/>
+                            
                                         <td class="cart_product">
                                             <a href="">
                                                 <img src="${uploadedImages}${item.product.smallPhotoPath}" alt="" width="50px" height="50px"/>
                                             </a>
                                         </td>
+                            
                                         <td class="cart_description">
                                             <h4>
-                                                <a href="${spring:mvcUrl('PLC#show').arg(0,item.product.nameId).build()}">${item.product.name}</a>
+                                                <a href="${spring:mvcUrl('PLC#show').arg(0,item.product.nameId).build()}">
+                                                	${item.product.name}
+                                                </a>
                                             </h4>
                                         </td>
+                                        
                                         <td class="cart_price">
-                                            <p>R$ ${item.product.price}</p>
+                                            <p>R$ <span class="cart-amount">${item.product.price}</span></p>
                                         </td>
+                                        
                                         <td class="cart_quantity">
                                             <div class="cart_quantity_button">
-                                                <a class="cart_quantity_up" href=""> + </a>
-                                                <input class="cart_quantity_input" type=text name="quantity"
-                                                            value="${shoppingCart.getQuantity(item)}">
-                                                <a class="cart_quantity_down" href=""> - </a>
-                                            </div>
-                                            <img class="loading" src="${classPath }/images/base/loading.gif" alt="Carregando"/>
+                                               
+                                                <a id="increase-item" class="cart_quantity_up" href="">
+                                                	 + 
+                                               	</a>
+                                               	
+                                                <input class="cart_quantity_input" name="quantity"
+                                                		value="${shoppingCart.getQuantity(item)}">
+                                                            
+                                                <a id="decrease-item" class="cart_quantity_down" href="">
+                                                 	- 
+                                                </a>
+                                                
+                                            </div>                                            
                                         </td>
+                                        
                                         <td class="cart_total">
+                                        	<img class="loading" src="${classPath }/images/base/loading.gif" alt="Carregando"/>
                                             <p class="cart_total_price">R$ <span class="cart_total_price_value">${shoppingCart.getTotal(item)}</span></p>
                                         </td>
-                                        <td class="cart_delete">
+                                        
+                                        <td class="cart_delete col-md-1">
                                         	 <a class="cart_quantity_delete" href="${spring:mvcUrl('SCC#remove').arg(0, item.product.id).build()}">
                                                    <i class="fa fa-times"></i>
-                                              </a>
+                                             </a>
                                         </td>
+                                        
                                     </tr>
                                 </c:forEach>
                             </tbody>
                         </table>
+                        
 	                    <c:if test="${shoppingCart.isEmpty()}">
 	                    	<div class="cart_empty">
 	                            <h3>Carrinho vazio.</h3>
@@ -98,53 +119,55 @@
 		                        </a>
 		                     </div>
 	                    </c:if>
+	                    
                     </div>
                 </div>
             </section>
+            
 			<c:if test="${!shoppingCart.isEmpty()}">
-            <section id="do_action">
-                <div class="container">
-                    <div class="heading">
-                        <h3><fmt:message key="checkout.title"/></h3>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="row">
-                	<div class="col-sm-6">
-						<div class="chose_area">
-							<ul class="user_info">
-								<li class="single_field zip-field">
-									<label><fmt:message key="checkout.label.zipcode"/></label>
-									<input class="cep-input" type="text" required="required" value="${correiosDto.getCep() }"
-										placeholder="<fmt:message key="checkout.field.optional"/>">
-								</li>
-							</ul>
-							<a class="btn btn-default check_out cep-calculation" href="" rel="nofollow">
-								<fmt:message key="checkout.button.freight"/>
-							</a>
-							<img class="loading" src="${classPath }/images/base/loading.gif" alt="Carregando"/>
-							<p class="deadline">${correiosDto.getDeadline()}</p>
-							<p class="msgError">${correiosDto.getMsgError()}</p>
+	            <section id="do_action">
+	                <div class="container">
+	                    <div class="heading">
+	                        <h3><fmt:message key="checkout.title"/></h3>
+	                        <p></p>
+	                    </div>
+	                </div>
+	                <div class="row cep-area">
+	                	<div class="col-sm-6">
+							<div class="chose_area">
+								<ul class="user_info">
+									<li class="single_field zip-field">
+										<label><fmt:message key="checkout.label.zipcode"/></label>
+										<input class="cep-input" type="text" required="required" value="${correiosDto.getCep() }"
+											placeholder="<fmt:message key="checkout.field.optional"/>">
+									</li>
+								</ul>
+								<a class="btn btn-default check_out cep-calculation" href="" rel="nofollow">
+									<fmt:message key="checkout.button.freight"/>
+								</a>
+								<img class="loading" src="${classPath }/images/base/loading.gif" alt="Carregando"/>
+								<p class="deadline">${correiosDto.getDeadline()}</p>
+								<p class="msgError">${correiosDto.getMsgError()}</p>
+							</div>
 						</div>
-					</div>
-                    <div class="col-sm-6">
-                        <div class="total_area">
-                            <ul>
-                                <li>Subtotal <span class="price-subtotal">${shoppingCart.getSubTotal()}</span></li>
-                                	
-                                	<li><fmt:message key="checkout.freight"/> <span class="price-freight">${correiosDto.getFreight()}</span></li>
-                                	
-                                <li>Total <span class="price-total">${shoppingCart.getTotal()}</span></li>
-                            </ul>
-                            <form:form action="${spring:mvcUrl('PC#checkout').build()}" method="post">
-                                <button id="checkout" name="checkout" type="submit" class="btn btn-default check_out">
-                                    <i class="fa fa-check-square-o"></i> <fmt:message key="checkout.button.finalize"/>
-                                </button>
-                            </form:form>
-                        </div>
-                    </div>
-                </div>
-            </section>
+	                    <div class="col-sm-6">
+	                        <div class="total_area">
+	                            <ul>
+	                                <li>Subtotal <span class="price-subtotal">${shoppingCart.getSubTotal()}</span></li>
+	                                	
+	                                	<li><fmt:message key="checkout.freight"/> <span class="price-freight">${correiosDto.getFreight()}</span></li>
+	                                	
+	                                <li>Total <span class="price-total">${shoppingCart.getTotal()}</span></li>
+	                            </ul>
+	                            <form:form action="${spring:mvcUrl('PC#checkout').build()}" method="post">
+	                                <button id="checkout" name="checkout" type="submit" class="btn btn-default check_out">
+	                                    <i class="fa fa-check-square-o"></i> <fmt:message key="checkout.button.finalize"/>
+	                                </button>
+	                            </form:form>
+	                        </div>
+	                    </div>
+	                </div>
+	            </section>
             </c:if>
         </main>
     </jsp:body>

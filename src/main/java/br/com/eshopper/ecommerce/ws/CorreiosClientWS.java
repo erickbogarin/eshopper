@@ -10,7 +10,7 @@ import br.com.eshopper.ecommerce.soap.correios.CalcPrecoPrazoWSSoap;
 
 public class CorreiosClientWS {
 	
-	public static List<CServico> calculate(String cepDestino) {
+	public static List<CServico> calcPrecoPrazo(String cepDestino) {
         CalcPrecoPrazoWSSoap client = new CalcPrecoPrazoWS().getCalcPrecoPrazoWSSoap();
 
         String codigoSedex = "41106";

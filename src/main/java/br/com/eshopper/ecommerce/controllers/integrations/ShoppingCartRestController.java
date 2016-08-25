@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.context.annotation.Scope;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.WebApplicationContext;
@@ -33,13 +34,13 @@ public class ShoppingCartRestController {
     
     private ShoppingItem item;
     
-    @RequestMapping(value = "/increaseItem")
+    @RequestMapping(value = "/increaseItem", method=RequestMethod.POST)
     public CartDto increaseItem(@RequestParam(value="productId") Integer productId) {
         shoppingCart.add(createItem(productId));
         return createCartDto();
     }
 
-    @RequestMapping(value = "/decreaseItem")
+    @RequestMapping(value = "/decreaseItem", method=RequestMethod.POST)
     public CartDto decreaseItem(@RequestParam(value="productId") Integer productId) {
         try { 
         	shoppingCart.decreaseItem(createItem(productId));
@@ -49,7 +50,7 @@ public class ShoppingCartRestController {
         return createCartDto();
     }
     
-    @RequestMapping(value = "/changeItemQuantity")
+    @RequestMapping(value = "/changeItemQuantity", method=RequestMethod.POST)
     public CartDto changeQuantity(@RequestParam(value="productId") Integer productId, @RequestParam(value="quantity") Integer quantity) {
     	try {
     		shoppingCart.changeQuantity(createItem(productId), quantity);

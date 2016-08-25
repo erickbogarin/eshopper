@@ -2,6 +2,7 @@ package br.com.eshopper.ecommerce.controllers;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
@@ -44,39 +45,49 @@ public class ReportController {
 	@Autowired
 	private ShoppingBrandDAO shoppingBrandDao;
 
+	SimpleDateFormat curFormater = new SimpleDateFormat("dd/MM/yyyy");
+	Calendar c1 = Calendar.getInstance(); 	    
+	Calendar c2 = Calendar.getInstance();
+	
 	private static final Logger logger = Logger.getLogger(ReportController.class);
-
-	/**
-	 * @param modelMap
-	 * @param modelAndView
-	 * @return
-	 */
+	
 	@RequestMapping("/category")
-	public ModelAndView getCategoryReport(ModelMap modelMap, ModelAndView modelAndView) {
-
-		List<ShoppingCategory> salesList = shoppingCategoryDao.list();
+	public ModelAndView getCategoryReport(ModelMap modelMap, ModelAndView modelAndView,
+			@RequestParam(value = "start", required = true) String start,
+			@RequestParam(value = "ends", required = true) String ends) throws Exception {
+		
+		c1.setTime(curFormater.parse(start));
+	    c2.setTime(curFormater.parse(ends));
+		
+		List<ShoppingCategory> salesList = shoppingCategoryDao.list(c1, c2);
 		JRDataSource dataSource = new JRBeanCollectionDataSource(salesList);
+		
+		Date startDate = setDateFormart(start);
+		Date endDate = setDateFormart(ends);
 
+		modelMap.put("START", startDate);
+		modelMap.put("END", endDate);
 		modelMap.put("datasource", dataSource);
 		modelMap.put("format", "pdf");
 		modelAndView = new ModelAndView("rpt_categoria", modelMap);
 		return modelAndView;
 	}
 
-	/**
-	 * @param modelMap
-	 * @param modelAndView
-	 * @return
-	 * @throws Exception
-	 */
 	@RequestMapping("/person")
 	public ModelAndView getPersonReport(ModelMap modelMap, ModelAndView modelAndView,
-			@RequestParam(value = "starts", required = true) String starts,
+			@RequestParam(value = "start", required = true) String start,
 			@RequestParam(value = "ends", required = true) String ends) throws Exception {
 		
-		List<ShoppingPerson> salesList = shoppingPersonDao.list();
+		c1.setTime(curFormater.parse(start));
+	    c2.setTime(curFormater.parse(ends));
+		
+		List<ShoppingPerson> salesList = shoppingPersonDao.list(c1, c2);
 		JRDataSource dataSource = new JRBeanCollectionDataSource(salesList);
-
+		
+		Date startDate = setDateFormart(start);
+		Date endDate = setDateFormart(ends);
+		modelMap.put("START", startDate);
+		modelMap.put("END", endDate);
 		modelMap.put("datasource", dataSource);
 		modelMap.put("format", "pdf");
 		modelAndView = new ModelAndView("rpt_genero", modelMap);
@@ -84,20 +95,15 @@ public class ReportController {
 		return modelAndView;
 	}
 
-	/**
-	 * @param modelMap
-	 * @param modelAndView
-	 * @param starts
-	 * @param ends
-	 * @return
-	 * @throws Exception
-	 */
 	@RequestMapping("/brand")
 	public ModelAndView getBrandReport(ModelMap modelMap, ModelAndView modelAndView,
 			@RequestParam(value = "start", required = true) String start,
 			@RequestParam(value = "ends", required = true) String ends) throws Exception {
-
-		List<ShoppingBrand> salesList = shoppingBrandDao.list();
+		
+		c1.setTime(curFormater.parse(start));
+	    c2.setTime(curFormater.parse(ends));
+	    
+		List<ShoppingBrand> salesList = shoppingBrandDao.list(c1, c2);
 		JRDataSource dataSource = new JRBeanCollectionDataSource(salesList);
 
 		Date startDate = setDateFormart(start);
@@ -119,10 +125,6 @@ public class ReportController {
 		return dataInicial;
 	}
 
-	/**
-	 * @param e
-	 * @return
-	 */
 	@ExceptionHandler(MissingServletRequestParameterException.class)
 	@ResponseStatus(value = HttpStatus.NOT_FOUND)
 	public @ResponseBody String handlerMissingParamsError(MissingServletRequestParameterException e) {
