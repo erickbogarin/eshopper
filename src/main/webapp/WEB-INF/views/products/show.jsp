@@ -21,8 +21,8 @@
 			<div class="product-details">
 				<!--product-details-->
 				<div class="col-sm-5">
-					<img id="image-zoom" width="350px" height="350px" src="${uploadedImages}${product.mediumPhotoPath}"
-						data-zoom-image="${uploadedImages}${product.largePhotoPath}"
+					<img id="image-zoom" width="350px" height="350px" src="${product.mediumPhotoPath}"
+						data-zoom-image="${product.largePhotoPath}"
 						alt="${product.name}" />
 				</div>
 				<div class="col-sm-7">

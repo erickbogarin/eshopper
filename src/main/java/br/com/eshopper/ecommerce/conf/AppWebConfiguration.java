@@ -86,7 +86,7 @@ public class AppWebConfiguration extends WebMvcConfigurerAdapter {
 		resolver.setOrder(1);
 		return resolver;
 	}
-
+	
 	@Bean
 	public MessageSource messageSource() {
 		ReloadableResourceBundleMessageSource bundle = new ReloadableResourceBundleMessageSource();

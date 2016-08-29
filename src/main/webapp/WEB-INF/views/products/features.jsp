@@ -13,7 +13,7 @@
 		<div class="product-image-wrapper">
 			<div class="single-products">
 				<div class="productinfo text-center">
-					<img class="lazy" width="255px" height="237px" data-original="${uploadedImages}${product.mediumPhotoPath}" alt="${product.name }" />
+					<img class="lazy" width="255px" height="237px" data-original="${product.mediumPhotoPath}" alt="${product.name }" />
 					<h2>R$ ${product.price }</h2>
 					<p class="product-name">${product.name}</p>
 					<a href="${spring:mvcUrl('PLC#show').arg(0,product.nameId).build()}"
@@ -23,7 +23,7 @@
 				</div>
 				<div class="product-overlay">
 					<div class="overlay-content">
-						<img class="lazy" width="255px" height="237px" data-original="${uploadedImages}${product.mediumPhotoPath}" alt="${product.name }" />
+						<img class="lazy" width="255px" height="237px" data-original="${product.mediumPhotoPath}" alt="${product.name }" />
 						<h2>R$ ${product.price }</h2>
 						<p>${product.name}</p>
 						<a href="${spring:mvcUrl('PLC#show').arg(0,product.nameId).build()}"

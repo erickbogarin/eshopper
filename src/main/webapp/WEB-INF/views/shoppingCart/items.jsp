@@ -62,7 +62,7 @@
                             
                                         <td class="cart_product">
                                             <a href="">
-                                                <img src="${uploadedImages}${item.product.smallPhotoPath}" alt="" width="50px" height="50px"/>
+                                                <img src="${item.product.smallPhotoPath}" alt="" width="50px" height="50px"/>
                                             </a>
                                         </td>
                             
