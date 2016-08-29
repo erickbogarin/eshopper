@@ -1,5 +1,7 @@
 .idea
+.settings
 .project
 .tern-project
-/docs
+/doc
 /target
+/src/test/resources/phantomjs.exe
