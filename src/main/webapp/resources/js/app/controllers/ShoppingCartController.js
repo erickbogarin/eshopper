@@ -18,7 +18,7 @@ $(function() {
 		
 		var params = {
 			productId: selectedShoppingItem.find('.item_id').val(),
-			quantity : self.val() || '',			
+			quantity : self.val() || ''			
 		};
 		
 		loadingState.show();
@@ -47,7 +47,7 @@ $(function() {
 			var loadingState = $resume.find('.loading');
 			
 			var params = {
-				cep: $resume.find('.cep-input').val(),
+				cep: $resume.find('.cep-input').val()
 			};
 			
 			loadingState.show();
