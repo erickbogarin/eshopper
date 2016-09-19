@@ -1,8 +1,8 @@
-.idea
-.settings
-.project
-.tern-project
-.classpath
-/doc
-/target
-/src/test/resources/phantomjs.exe
+/app/.idea
+/app/.settings
+/app/.project
+/app/.tern-project
+/app/.classpath
+/app/doc
+/app/target
+/app/src/test/resources/phantomjs.exe

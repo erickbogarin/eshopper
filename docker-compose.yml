@@ -1,0 +1,21 @@
+db:
+  image: orchardup/mysql
+  environment:
+    MYSQL_USER: root
+    MYSQL_PASSWORD: 1234
+    MYSQL_DATABASE: eshopper
+  ports:
+    - "3306"
+
+dbredis:
+  image: redis
+  ports:
+    - "6379"
+
+tomcat:
+  build: .
+  links:
+    - db:mysql
+    - dbredis
+  ports:
+    - "8080"
