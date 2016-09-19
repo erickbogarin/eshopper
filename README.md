@@ -2,7 +2,7 @@
 An e-commerce project offering products such as clothing, accessories and shoes.
 
 ## Demo
-[Live demo](http://eshopper-online.herokuapp.com) running with Heroku.
+[Live demo](http://eshopper-online.herokuapp.com) running on Heroku.
 
 ## Feature List
 * Search and browse through categories, brands and gender
