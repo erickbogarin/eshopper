@@ -22,7 +22,7 @@ An e-commerce project offering products such as clothing, accessories and shoes.
 * JPA 2.0 – Hibernate
 * Database (MySQL, Redis)
 * Jasper Reports
-* Testing (JUnit, Selenium (PhantomJS))
+* Testing (JUnit, Selenium - PhantomJS)
 * RESTful API
 * Webservice SOAP client (Correios)
 * S3 – AWS Integration
@@ -36,14 +36,14 @@ An e-commerce project offering products such as clothing, accessories and shoes.
 
 ## How to run this application
 Open the command line and copy this repository:
-```
-git clone https://github.com/erickbogarin/eshopper.git
-cd eshopper
+```sh
+$ git clone https://github.com/erickbogarin/eshopper.git
+$ cd eshopper
 ```
 
 ### Running with Docker
-```
-docker-compose up -d
+```sh
+$ docker-compose up -d
 ```
 Go to [http://localhost:8080](http://localhost:8080) to see the app
 
@@ -56,8 +56,8 @@ Make sure the following services are installed and running:
 
 #### Setting up the MySQL Database
 Create the database
-```
-CREATE DATABASE eshopper
+```sh
+$ CREATE DATABASE eshopper
 ```
 Import the dbinit.sql file
 ```
@@ -66,11 +66,11 @@ Import the dbinit.sql file
 
 #### Deploying on Tomcat
 Within the project root folder path, copy the following commands bellow:
-```
-cd app
-mvn package -DskipTests
-cp target/e-shopper.war <your-path-to>/tomcat/webapps
-service tomcat restart
+```sh
+$ cd app
+$ mvn package -DskipTests
+$ cp target/e-shopper.war <your-path-to>/tomcat/webapps
+$ service tomcat restart
 ```
 Go to [http://localhost:8080](http://localhost:8080) to see the app
 
